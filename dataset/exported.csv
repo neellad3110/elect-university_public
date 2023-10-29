@@ -1,0 +1,1001 @@
+counter,short_url,country,region,total_enrollment,total_international_enrollment,ug_enrollment,international_ug_enrollment,pg_enrollment,international_pg_enrollment,rating
+1,harvard-university,"United States","North America",41987,24,14467,10.1,27520,20.1,5
+2,stanford-university,"United States","North America",16163,24,6994,10.7,9169,34.2,5
+3,massachusetts-institute-of-technology-mit,"United States","North America",11084,16.8,4276,14.5,6808,18.2,5
+4,university-of-cambridge,"United Kingdom",Europe,19875,36.9,12265,23.3,7610,58.9,5
+5,university-of-california-berkeley,"United States","North America",39874,17.7,29250,19,10624,13.9,5
+6,princeton-university,"United States","North America",8105,25.1,5260,14.6,2845,44.5,5
+7,university-of-oxford,"United Kingdom",Europe,20785,36.4,11900,20.1,8885,58.2,5
+8,columbia-university,"United States","North America",33301,37,8628,10.1,24673,20.1,5
+9,california-institute-of-technology,"United States","North America",2240,3.6,901,7.5,1339,1,5
+10,university-of-chicago,"United States","North America",16020,27.5,6797,14.6,9223,37,5
+11,yale-university,"United States","North America",14389,20,6748,10.1,7641,20.1,4.5
+12,cornell-university,"United States","North America",23872,25.5,15043,13.3,8829,46.3,4.5
+13,university-of-california-los-angeles,"United States","North America",43856,10.3,31636,10.3,12220,10.1,4.5
+14,university-of-pennsylvania,"United States","North America",21312,15.6,9752,13.1,11560,17.6,4.5
+15,paris-saclay-university,France,Europe,30101,18.3,7068,9.8,23033,20.8,4.5
+16,johns-hopkins-university,"United States","North America",33543,26,8185,10.1,25358,20.1,4.5
+17,university-college-london,"United Kingdom",Europe,34785,47.3,18500,45.1,16285,49.9,4.5
+18,university-of-washington,"United States","North America",49324,13.3,30852,15.6,18472,9.5,4.5
+19,university-of-california-san-diego,"United States","North America",39811,23,31840,10.1,7971,20.1,4.5
+20,eth-zurich,Switzerland,Europe,22461,25.3,10355,22.2,12106,28,4.5
+21,university-of-california-san-francisco,"United States","North America",3185,13.3,19561,0,3185,20.1,4.5
+22,tsinghua-university,China,Asia,56939,6.9,15707,9.5,32298,7.5,4.5
+23,imperial-college-london,"United Kingdom",Europe,20135,45.4,11130,49.3,9005,40.6,4.5
+24,university-of-toronto,Canada,"North America",81015,33.3,58422,39.8,22593,16.5,4.5
+25,washington-university-in-st-louis,"United States","North America",14108,24.7,7173,7.8,6935,42.1,4.5
+26,university-of-michigan-ann-arbor,"United States","North America",43727,12.2,30344,9.7,13383,17.8,4.5
+27,the-university-of-tokyo,Japan,Asia,28409,10.9,14024,2,12796,22.1,4.5
+28,new-york-university,"United States","North America",58091,33,29902,10.1,28189,20.1,4.5
+29,peking-university,China,Asia,52326,6.2,16253,10.1,24954,6.5,4.5
+30,northwestern-university,"United States","North America",25614,20,9906,10.1,15708,20.1,4.5
+31,university-of-north-carolina-at-chapel-hill,"United States","North America",27604,6.1,18969,7,8635,4.2,4.5
+32,university-of-copenhagen,Denmark,Europe,37493,17,21394,10.1,7793,20.1,4.5
+33,zhejiang-university,China,Asia,65605,6.8,25924,10.3,28048,6.4,4.5
+34,duke-university,"United States","North America",18159,19,7338,10.1,10821,20.1,4.5
+35,the-university-of-melbourne,Australia,Oceania,67373,38.9,30364,34.5,37009,42.5,4.5
+36,university-of-wisconsin-madison,"United States","North America",41265,9.2,30540,9.4,10725,8.4,4.5
+37,karolinska-institute,Sweden,Europe,8393,10.7,2572,12.5,5821,9.9,4.5
+38,the-university-of-edinburgh,"United Kingdom",Europe,30445,38,21460,28.4,8985,60.8,4.5
+39,kyoto-university,Japan,Asia,22596,9,19561,10.1,7793,20.1,4.5
+40,rockefeller-university,"United States","North America",248,32.3,19561,10.1,248,32.3,4.5
+41,psl-university,France,Europe,16218,15,4230,15.1,11988,15,4.5
+42,the-university-of-manchester,"United Kingdom",Europe,37090,38.2,26220,30.1,10870,57.7,4.5
+43,the-university-of-texas-at-austin,"United States","North America",55128,10,43132,10.1,11996,20.1,4.5
+44,university-of-british-columbia,Canada,"North America",60532,29.6,49015,32,11517,19.5,4.5
+45,university-of-minnesota-twin-cities,"United States","North America",44997,7,32570,7.5,12427,5.5,4.5
+46,shanghai-jiao-tong-university,China,Asia,42010,6.8,17505,6.6,24505,6.9,4.5
+47,sorbonne-university,France,Europe,46310,16.6,25904,15.8,20406,17.7,4.5
+48,the-university-of-texas-southwestern-medical-center-at-dallas,"United States","North America",2514,13.3,19561,0,2514,20.1,4.5
+49,university-of-geneva,Switzerland,Europe,16935,39,19561,10.1,7793,20.1,4.5
+50,university-of-maryland-college-park,"United States","North America",34656,7.9,28167,4.2,6489,24.1,4.5
+51,the-university-of-queensland,Australia,Oceania,41463,34.5,27463,26.4,14000,50.4,4.5
+52,university-of-illinois-at-urbana-champaign,"United States","North America",47321,24,33620,16.5,13701,20.1,4.5
+53,utrecht-university,Netherlands,Europe,34958,10.9,20694,4,14264,20.9,4.5
+54,swiss-federal-institute-of-technology-lausanne,Switzerland,Europe,10492,59,19561,10.1,7793,20.1,4.5
+55,heidelberg-university,Germany,Europe,19320,16.2,14229,15.7,5091,17.4,4.5
+56,fudan-university,China,Asia,38340,6.6,14656,10,23684,4.5,4.5
+57,university-of-colorado-at-boulder,"United States","North America",35975,8.1,30088,5.7,5887,20.6,4.5
+58,university-of-southern-california,"United States","North America",40417,17.6,18880,12.1,21537,22.5,4.5
+59,kings-college-london,"United Kingdom",Europe,28455,41.5,17940,37.1,10515,48.9,4.5
+60,technical-university-of-munich,Germany,Europe,42705,27,18786,10.1,20538,20.1,4.5
+61,university-of-munich,Germany,Europe,36436,17.9,22326,13,14110,25.6,4.5
+62,university-of-zurich,Switzerland,Europe,29715,12,14995,11.8,14720,12.1,4.5
+63,university-of-california-santa-barbara,"United States","North America",25701,10.9,22703,12,2998,2.5,4.5
+64,university-of-science-and-technology-of-china,China,Asia,36651,2.3,7372,0.1,22451,3.7,4.5
+65,university-of-california-irvine,"United States","North America",35537,22.7,29204,24.2,6333,15.6,4.5
+66,vanderbilt-university,"United States","North America",12655,11.1,7006,14.7,5649,6.6,4.5
+67,university-of-bonn,Germany,Europe,38043,13,19561,10.1,7793,20.1,4.5
+68,weizmann-institute-of-science,Israel,Asia,27010,13.3,19561,10.1,7793,20.1,4.5
+69,university-of-paris,France,Europe,61390,17.2,31489,11.8,29901,23,4.5
+70,mcgill-university,Canada,"North America",31294,29,19561,10.1,7793,20.1,4.5
+71,national-university-of-singapore,Singapore,Asia,30869,28,28555,10.1,7793,20.1,4.5
+72,the-university-of-new-south-wales,Australia,Oceania,43336,35.6,30083,27.2,13253,54.6,4.5
+73,sun-yat-sen-university,China,Asia,54996,4.9,32973,6.3,22023,2.9,4.5
+74,university-of-oslo,Norway,Europe,27505,17,19561,10.1,7793,20.1,4.5
+75,university-of-sydney,Australia,Oceania,46452,42.7,28763,33,17689,58.7,4.5
+76,university-of-groningen,Netherlands,Europe,33402,31.2,20214,30.2,13188,32.8,4.5
+77,monash-university,Australia,Oceania,68316,53.6,48367,45,19949,74.4,4.5
+78,aarhus-university,Denmark,Europe,30013,10.2,15439,7.1,14574,13.4,4.5
+79,technion-israel-institute-of-technology,Israel,Asia,14703,5,19561,10.1,7793,20.1,4.5
+80,the-university-of-texas-m-d-anderson-cancer-center,"United States","North America",551,13.3,485,10.1,66,20.1,4.5
+81,university-of-basel,Switzerland,Europe,11518,27,19561,10.1,7793,20.1,4.5
+82,uppsala-university,Sweden,Europe,26045,15,19561,10.1,7793,20.1,4.5
+83,university-of-pittsburgh,"United States","North America",31667,11,20856,10.1,10811,20.1,4.5
+84,ghent-university,Belgium,Europe,39447,6.2,20847,5.3,18600,7.2,4.5
+85,the-australian-national-university,Australia,Oceania,17358,43.9,10236,28.8,7122,65.6,4.5
+86,ku-leuven,Belgium,Europe,47445,11.5,22887,8.8,24558,14.1,4.5
+87,the-hebrew-university-of-jerusalem,Israel,Asia,16137,5,19561,10.1,7793,20.1,4.5
+88,erasmus-university-rotterdam,Netherlands,Europe,31149,23,20367,10.1,11116,20.1,4.5
+89,the-university-of-hong-kong,"China-Hong Kong",Asia,18260,44,19561,10.1,7793,20.1,4.5
+90,university-of-bristol,"United Kingdom",Europe,24270,25.1,18425,16.5,5845,52.4,4.5
+91,huazhong-university-of-science-and-technology,China,Asia,56782,4.9,30736,4.1,26046,5.8,4.5
+92,university-of-alberta,Canada,"North America",31919,26,19561,10.1,7793,20.1,4.5
+93,nanyang-technological-university,Singapore,Asia,25088,27,19561,10.1,7793,20.1,4.5
+94,seoul-national-university,"South Korea",Asia,27784,12,16556,10.1,11228,20.1,4.5
+95,central-south-university,China,Asia,63655,2.2,34052,1.1,22472,4.5,4.5
+96,nanjing-university,China,Asia,36625,3.1,13196,5.3,17393,2.5,4.5
+97,purdue-university-west-lafayette,"United States","North America",47412,23,35481,10.1,11931,20.1,4.5
+98,brown-university,"United States","North America",10760,20,7428,10.1,3332,20.1,4.5
+99,mcmaster-university,Canada,"North America",32291,14.8,27385,15.4,4906,11.4,4.5
+100,stockholm-university,Sweden,Europe,27185,14,19561,10.1,7793,20.1,4.5
+101,arizona-state-university,"United States","North America",48988,12.2,42070,10.8,6918,20.8,4
+102,beijing-institute-of-technology,China,Asia,28771,4.9,15429,4.5,13342,5.4,4
+103,boston-university,"United States","North America",26147,25.8,16080,25.8,10067,25.7,4
+104,carnegie-mellon-university,"United States","North America",14223,47.4,6868,26.9,7355,66.6,4
+105,city-university-of-hong-kong,"China-Hong Kong",Asia,9233,34.8,5845,37.1,3388,30.8,4
+106,emory-university,"United States","North America",12828,16.8,6735,16.1,6093,17.6,4
+107,harbin-institute-of-technology,China,Asia,36258,4.9,15675,4.3,14200,7.7,4
+108,jilin-university,China,Asia,71755,2.2,42609,2.4,29146,1.9,4
+109,king-saud-university,"Saudi Arabia",Asia,37616,11.2,33931,11.7,3685,6.5,4
+110,leiden-university,Netherlands,Europe,33279,17.4,21073,16.1,12206,19.7,4
+111,mayo-clinic-alix-school-of-medicine,"United States","North America",1249,13.3,337,10.1,912,20.1,4
+112,moscow-state-university,Russia,Europe,29235,29,19561,10.1,7793,20.1,4
+113,icahn-school-of-medicine-at-mount-sinai,"United States","North America",1242,13.3,19561,0,1242,20.1,4
+114,nagoya-university,Japan,Asia,15224,7.3,9421,3,5803,14.3,4
+115,norwegian-university-of-science-and-technology-ntnu,Norway,Europe,41971,8,19561,10.1,7793,20.1,4
+116,radboud-university-nijmegen,Netherlands,Europe,25356,10.8,15273,11.5,10083,9.7,4
+117,rice-university,"United States","North America",6884,27.8,3930,15.7,2954,43.9,4
+118,rutgers-the-state-university-of-new-jersey-new-brunswick,"United States","North America",44805,17.7,34742,16,10063,23.8,4
+119,sapienza-university-of-rome,Italy,Europe,77390,6.1,40817,5.2,36573,7.1,4
+120,shandong-university,China,Asia,66652,3.5,41037,2.4,20410,6.5,4
+121,sichuan-university,China,Asia,55419,5.7,31098,7.6,24321,3.3,4
+122,soochow-university-china,China,Asia,42264,2.7,28522,2.7,13742,2.5,4
+123,south-china-university-of-technology,China,Asia,43758,3.3,24646,3.7,15893,3.2,4
+124,southern-university-of-science-and-technology,China,Asia,5408,0.6,4178,0.8,939,0,4
+125,southeast-university,China,Asia,36710,4.1,16982,4.4,19728,4,4
+126,the-chinese-university-of-hong-kong,"China-Hong Kong",Asia,18400,11.4,15547,12.6,2853,4.5,4
+127,the-ohio-state-university-columbus,"United States","North America",61492,11.7,50293,9.6,11199,20.9,4
+128,pennsylvania-state-university-university-park,"United States","North America",44928,11.1,38801,11.5,6127,8.8,4
+129,the-university-of-glasgow,"United Kingdom",Europe,27440,34.3,18415,21.1,9025,61.3,4
+130,the-university-of-western-australia,Australia,Oceania,18287,28.4,11435,21.5,6852,39.9,4
+131,tianjin-university,China,Asia,41091,4,19099,5,17327,4,4
+132,university-of-electronic-science-and-technology-of-china,China,Asia,32763,3.4,19763,1.3,13000,6.5,4
+133,universit-grenoble-alpes,France,Europe,50987,13.6,29815,11.2,21172,16.8,4
+134,universit-libre-de-bruxelles-ulb,Belgium,Europe,27194,34,19561,10.1,7793,20.1,4
+135,university-of-amsterdam,Netherlands,Europe,35709,26.1,22075,25.2,13634,27.6,4
+136,university-of-bern,Switzerland,Europe,11090,16,19561,10.1,7793,20.1,4
+137,university-of-california-davis,"United States","North America",37294,21.9,29689,21.1,7605,25.2,4
+138,university-of-florida,"United States","North America",49038,12.5,34830,6.7,14208,26.6,4
+139,university-of-freiburg,Germany,Europe,21475,23,19561,10.1,7793,20.1,4
+140,university-of-gothenburg,Sweden,Europe,19677,13,19561,10.1,7793,20.1,4
+141,university-of-helsinki,Finland,Europe,31572,5,16467,10.1,14796,20.1,4
+142,university-of-lausanne,Switzerland,Europe,14094,21.4,8608,18.5,5486,26.1,4
+143,university-of-liverpool,"United Kingdom",Europe,26575,27.3,21905,26.3,4670,32,4
+144,university-of-nottingham,"United Kingdom",Europe,33115,25.7,25420,16.4,7695,56.3,4
+145,university-of-sao-paulo,Brazil,"Latin America",67005,2.8,53647,2.5,13358,3.8,4
+146,university-of-utah,"United States","North America",31063,5.8,21909,6.4,9154,4.5,4
+147,university-of-vienna,Austria,Europe,33547,27,19561,10.1,7793,20.1,4
+148,university-of-warwick,"United Kingdom",Europe,23430,39.7,16075,30,7355,60.8,4
+149,wuhan-university,China,Asia,59329,4.9,31412,6.7,27917,2.8,4
+150,xian-jiaotong-university,China,Asia,46730,4.7,18700,5.4,21826,5.5,4
+151,aix-marseille-university,France,Europe,72945,11.2,43438,10.1,29507,13,4
+152,baylor-college-of-medicine,"United States","North America",1648,13.3,19561,0,1648,20.1,4
+153,beihang-university,China,Asia,31774,5,16306,3.9,15468,6.2,4
+154,beijing-normal-university,China,Asia,24880,5,11190,5.9,13690,4.2,4
+155,cardiff-university,"United Kingdom",Europe,27510,23.6,20905,15.1,6605,50.3,4
+156,case-western-reserve-university,"United States","North America",10666,15.4,5310,17,5356,13.8,4
+157,delft-university-of-technology,Netherlands,Europe,18743,30,13282,10.1,7793,20.1,4
+158,georgia-institute-of-technology,"United States","North America",38951,27,17400,10.1,21551,20.1,4
+159,goethe-university-frankfurt,Germany,Europe,47141,15,19561,10.1,7793,20.1,4
+160,hunan-university,China,Asia,36551,2.1,20600,0.8,15951,3.9,4
+161,indiana-university-bloomington,"United States","North America",40181,7.7,33138,6.6,7043,12.7,4
+162,king-abdulaziz-university,"Saudi Arabia",Asia,32853,22.1,26400,18.1,6453,38.3,4
+163,london-school-of-economics-and-political-science,"United Kingdom",Europe,11310,68.4,5110,53.1,6200,81,4
+164,london-school-of-hygiene-tropical-medicine,"United Kingdom",Europe,27010,13.3,19561,10.1,895,55.3,4
+165,lund-university,Sweden,Europe,27266,19,19561,10.1,7793,20.1,4
+166,michigan-state-university,"United States","North America",44745,12.9,36332,10.5,8413,23.7,4
+167,nankai-university,China,Asia,31718,3.6,16046,3.8,11810,4.4,4
+168,northwestern-polytechnical-university,China,Asia,28990,3.7,15457,3.2,13533,4.2,4
+169,osaka-university,Japan,Asia,22485,5.9,14789,3.4,7696,10.9,4
+170,shenzhen-university,China,Asia,35145,1.1,27778,1,7367,1.8,4
+171,sungkyunkwan-university,"South Korea",Asia,26953,17.8,18882,22.9,8071,5.8,4
+172,technical-university-of-denmark,Denmark,Europe,9265,25,19561,10.1,7793,20.1,4
+173,texas-a-m-university,"United States","North America",73267,8,56527,10.1,16740,20.1,4
+174,the-hong-kong-polytechnic-university,"China-Hong Kong",Asia,19869,21,13422,15,6447,33.5,4
+175,the-university-of-adelaide,Australia,Oceania,21515,32.7,16349,23.1,5166,63.1,4
+176,the-university-of-sheffield,"United Kingdom",Europe,25490,41.2,18295,22.9,7195,87.7,4
+177,tokyo-institute-of-technology,Japan,Asia,9752,13,19561,10.1,7793,20.1,4
+178,tongji-university,China,Asia,41752,4.7,18115,5.8,17871,5.1,4
+179,tufts-university,"United States","North America",12781,16,6134,10.1,6647,20.1,4
+180,university-of-arizona,"United States","North America",48653,10,37332,10.1,11321,20.1,4
+181,university-of-birmingham,"United Kingdom",Europe,32135,26.7,22385,17.2,9750,48.5,4
+182,university-of-california-santa-cruz,"United States","North America",19020,7.6,17084,7.7,1936,7.5,4
+183,university-of-cologne,Germany,Europe,36965,16,19561,10.1,7793,20.1,4
+184,university-of-exeter,"United Kingdom",Europe,23552,27.4,19015,22.9,4537,46.3,4
+185,university-of-goettingen,Germany,Europe,30773,13,19561,10.1,7793,20.1,4
+186,university-of-leeds,"United Kingdom",Europe,32024,27.3,24574,16.3,7450,63.9,4
+187,university-of-massachusetts-amherst,"United States","North America",29201,10.6,24120,9.9,5081,13.7,4
+188,university-of-milan,Italy,Europe,29555,5.6,28167,5.8,1388,1.3,4
+189,university-of-montpellier,France,Europe,37708,13.2,23034,12.8,14674,14,4
+190,university-of-montreal,Canada,"North America",36794,22,19561,10.1,7793,20.1,4
+191,university-of-padua,Italy,Europe,45169,4,36058,3.4,14594,20.1,4
+192,university-of-pisa,Italy,Europe,33726,6,28293,3.6,9696,20.1,4
+193,university-of-southampton,"United Kingdom",Europe,20570,35.1,14370,18.6,6200,73.3,4
+194,university-of-strasbourg,France,Europe,46898,20,19561,10.1,7793,20.1,4
+195,university-of-tuebingen,Germany,Europe,27901,14,19561,10.1,7793,20.1,4
+196,university-of-waterloo,Canada,"North America",38940,21.2,33982,21.6,4958,18.5,4
+197,vrije-universiteit-amsterdam,Netherlands,Europe,30822,14.7,18312,13.3,12510,16.8,4
+198,wageningen-university-research,Netherlands,Europe,13914,27,19561,10.1,7793,20.1,4
+199,xiamen-university,China,Asia,38803,3.7,20327,3.9,18476,3.5,4
+200,zhengzhou-university,China,Asia,70683,1.9,54087,2.2,16596,1.1,4
+201,beijing-university-of-chemical-technology,China,Asia,23338,1.9,15575,1,6789,4.2,4
+202,capital-medical-university,China,Asia,11031,7.1,5310,13.9,4652,1,4
+203,catholic-university-of-louvain,Belgium,Europe,30957,20,19561,10.1,7793,20.1,4
+204,china-agricultural-university,China,Asia,22167,1.4,12204,0.2,9963,2.9,4
+205,china-medical-university-taichung,China-Taiwan,Asia,7199,6.7,6228,6.5,971,8.1,4
+206,china-university-of-geosciences-wuhan,China,Asia,29649,2.8,18240,0.9,11409,6,4
+207,chongqing-university,China,Asia,43225,1.5,25874,0.5,14644,3.6,4
+208,claude-bernard-university-lyon-1,France,Europe,29529,13.9,15360,11.4,14169,16.7,4
+209,curtin-university,Australia,Oceania,30000,29.8,25841,28.1,4159,40.7,4
+210,dalian-university-of-technology,China,Asia,42146,2.2,25817,1.2,16329,3.7,4
+211,deakin-university,Australia,Oceania,37919,22.6,30003,13.8,7916,56.2,4
+212,east-china-normal-university,China,Asia,35817,5.3,15743,7.6,20074,3.6,4
+213,ecole-normale-superieure-lyon,France,Europe,2004,6.5,336,3,1668,7.3,4
+214,florida-state-university,"United States","North America",46825,7,36720,10.1,10105,20.1,4
+215,fuzhou-university,China,Asia,35717,1.6,24320,2.2,11397,0.4,4
+216,george-mason-university,"United States","North America",31896,9.6,25262,9.8,6634,8.8,4
+217,hanyang-university,"South Korea",Asia,20087,21,19561,10.1,7793,20.1,4
+218,hokkaido-university,Japan,Asia,18483,11.8,11935,4.1,6548,25.6,4
+219,jiangsu-university,China,Asia,32899,6.6,24096,5.1,7779,12.1,4
+220,jinan-university,China,Asia,45738,2,25319,3,10959,1.3,4
+221,king-abdullah-university-of-science-and-technology,"Saudi Arabia",Asia,27010,13.3,19561,10.1,7793,20.1,4
+222,korea-advanced-institute-of-science-and-technology,"South Korea",Asia,9481,8,19561,10.1,7793,20.1,4
+223,korea-university,"South Korea",Asia,22965,22,19561,10.1,7793,20.1,4
+224,kth-royal-institute-of-technology,Sweden,Europe,13329,0,7489,0,5840,0,4
+225,lanzhou-university,China,Asia,35629,1.6,19939,0.7,13131,3.3,4
+226,maastricht-university,Netherlands,Europe,16857,54,19561,10.1,7793,20.1,4
+227,macquarie-university,Australia,Oceania,43403,25.6,31938,16,11465,52.2,4
+228,medical-university-of-vienna,Austria,Europe,7142,30,19561,10.1,7793,20.1,4
+229,nanjing-medical-university,China,Asia,15840,5.2,10128,6.2,4988,3.9,4
+230,nanjing-tech-university,China,Asia,34694,0.9,26644,1,7249,0.9,4
+231,national-taiwan-university,China-Taiwan,Asia,27254,11,19561,10.1,7793,20.1,4
+232,newcastle-university,"United Kingdom",Europe,25950,23.5,20990,19.8,4960,39.4,4
+233,north-carolina-state-university-raleigh,"United States","North America",30082,9.6,22048,5.7,8034,20.4,4
+234,northeastern-university-boston,"United States","North America",28374,35,18753,10.1,9621,20.1,4
+235,oregon-health-and-science-university,"United States","North America",3301,3,891,10.1,2410,20.1,4
+236,oregon-state-university,"United States","North America",38110,11,31233,10.1,6877,20.1,4
+237,peking-union-medical-college,China,Asia,6633,13.3,1091,10.1,3846,20.1,4
+238,polytechnic-university-of-milan,Italy,Europe,35184,18.9,26092,4.7,18969,28.5,4
+239,qingdao-university,China,Asia,42887,1.4,34150,1.4,8737,1.4,4
+240,queen-mary-university-of-london,"United Kingdom",Europe,19595,34.8,14110,23.3,5485,64.3,4
+241,queens-university,Canada,"North America",27045,13.7,20745,13.1,6300,15.8,4
+242,rwth-aachen-university,Germany,Europe,44699,20.1,24164,15.1,20535,26,4
+243,shanghai-university,China,Asia,37714,5.8,21225,6,16489,5.6,4
+244,swinburne-university-of-technology,Australia,Oceania,41833,24.3,33989,18.3,7844,50.3,4
+245,taif-university,"Saudi Arabia",Asia,36428,2.4,34429,2.5,1999,0.9,4
+246,technical-university-of-berlin,Germany,Europe,22622,24,19561,10.1,7793,20.1,4
+247,tel-aviv-university,Israel,Asia,25547,3.6,15223,3.3,10324,4,4
+248,the-george-washington-university,"United States","North America",21725,11.4,10436,10.8,11289,12,4
+249,the-university-of-auckland,"New Zealand",Oceania,33092,27.2,27928,26.4,5164,31.9,4
+250,the-university-of-calgary,Canada,"North America",28560,19,19561,10.1,7793,20.1,4
+251,tohoku-university,Japan,Asia,17411,7.2,10631,3.2,6780,13.5,4
+252,trinity-college-dublin,Ireland,Europe,16564,21.1,12440,17.3,4124,32.6,4
+253,tu-dresden,Germany,Europe,31081,13.8,15798,10.8,15283,16.9,4
+254,ulsan-national-institute-of-science-and-technology,"South Korea",Asia,4127,8,19561,10.1,7793,20.1,4
+255,university-of-massachusetts-medical-school-worcester,"United States","North America",1227,13.3,19561,0,1227,20.1,4
+256,national-autonomous-university-of-mexico,Mexico,"Latin America",197407,1.3,171916,0.6,25491,5.9,4
+257,university-of-science-and-technology-beijing,China,Asia,27377,4,13661,3.2,10440,6.2,4
+258,the-university-of-texas-health-science-center-at-houston,"United States","North America",6553,13.3,1018,10.1,5535,20.1,4
+259,university-of-aberdeen,"United Kingdom",Europe,12910,37.3,9715,32.4,3195,52.1,4
+260,university-of-antwerp,Belgium,Europe,15862,10.3,8574,10.5,7288,10,4
+261,university-of-barcelona,Spain,Europe,57214,13.3,44444,5.9,12770,39.2,4
+262,university-of-bologna,Italy,Europe,65819,12,45266,7.7,21255,20.1,4
+263,university-of-bordeaux,France,Europe,54965,13,19561,10.1,7793,20.1,4
+264,university-of-buenos-aires,Argentina,"Latin America",27010,13.3,320000,10.1,7793,20.1,4
+265,university-of-california-riverside,"United States","North America",25816,14,22286,10.1,3530,20.1,4
+266,university-of-cape-town,"South Africa",Africa,21812,17,19561,10.1,7793,20.1,4
+267,university-of-cincinnati,"United States","North America",43692,9,30173,10.1,13519,20.1,4
+268,university-of-colorado-at-denver,"United States","North America",32857,13.3,21693,10.1,11164,20.1,4
+269,university-of-delaware,"United States","North America",21451,7.5,17279,6.5,4172,11.8,4
+270,university-of-east-anglia,"United Kingdom",Europe,16245,20.6,12940,15.6,3305,40.2,4
+271,university-of-erlangen-nuremberg,Germany,Europe,38111,12,19561,10.1,7793,20.1,4
+272,university-of-granada,Spain,Europe,52640,7,43474,3.8,9166,22.2,4
+273,university-of-hamburg,Germany,Europe,31517,13.3,20672,10.1,10845,0,4
+274,university-of-iowa,"United States","North America",29052,7.5,22126,5.7,6926,13.3,4
+275,university-of-kiel,Germany,Europe,26412,8,19561,10.1,7793,20.1,4
+276,university-of-leipzig,Germany,Europe,31088,13.3,19561,10.1,7793,20.1,4
+277,university-of-lisbon,Portugal,Europe,49847,9.9,28990,7.2,20857,13.7,4
+278,university-of-lorraine,France,Europe,64565,16.2,44221,12.4,20344,24.6,4
+279,university-of-mainz,Germany,Europe,31919,11,19561,10.1,7793,20.1,4
+280,university-of-manitoba,Canada,"North America",29311,17,19561,10.1,7793,20.1,4
+281,university-of-missouri-columbia,"United States","North America",26643,5.6,21978,3.5,4665,15.2,4
+282,university-of-muenster,Germany,Europe,32791,7.8,15155,4.7,17636,10.5,4
+283,university-of-naples-federico-ii,Italy,Europe,49604,2,42550,0.4,14276,20.1,4
+284,university-of-nebraska-lincoln,"United States","North America",28686,11,22433,10.1,6253,20.1,4
+285,university-of-ottawa,Canada,"North America",36670,24.2,28241,22.1,8429,31.3,4
+286,university-of-porto,Portugal,Europe,30379,9.7,15876,9.6,14503,9.9,4
+287,university-of-rochester,"United States","North America",10364,36.4,6422,31,3942,45.3,4
+288,university-of-sussex,"United Kingdom",Europe,17995,32.7,13700,25.8,4295,54.7,4
+289,university-of-tasmania,Australia,Oceania,18157,33.1,13623,25.1,4534,56.9,4
+290,university-of-technology-sydney,Australia,Oceania,32868,25.5,25884,19.8,6984,46.7,4
+291,university-of-tennessee-knoxville,"United States","North America",31477,5,24447,10.1,7030,20.1,4
+292,university-of-tsukuba,Japan,Asia,16994,13.8,9944,5.8,7050,25.1,4
+293,university-of-turin,Italy,Europe,57586,13.3,36555,9,21031,0.9,4
+294,university-of-virginia,"United States","North America",28593,12,18983,10.1,9610,20.1,4
+295,university-of-wollongong,Australia,Oceania,18995,21.6,13983,10.9,5012,51.6,4
+296,university-of-wuerzburg,Germany,Europe,23383,5.7,10289,6.4,13094,5.3,4
+297,virginia-commonwealth-university,"United States","North America",33462,13.3,25706,10.1,7756,20.1,4
+298,virginia-polytechnic-institute-and-state-university,"United States","North America",36322,13.8,29649,9,6673,35.1,4
+299,wuhan-university-of-technology,China,Asia,53884,2.5,37327,1.6,16557,4.6,4
+300,yonsei-university,"South Korea",Asia,17744,22,19561,10.1,7793,20.1,4
+301,aalborg-university,Denmark,Europe,16951,14.6,9531,8.4,7420,22.6,3.5
+302,aalto-university,Finland,Europe,11913,15.2,5368,2.6,6545,25.5,3.5
+303,autonomous-university-of-barcelona,Spain,Europe,32902,6.8,25479,5.4,7423,11.6,3.5
+304,autonomous-university-of-madrid,Spain,Europe,30354,9.3,23199,5.5,7155,21.8,3.5
+305,beijing-university-of-technology,China,Asia,22164,2.1,13731,1.6,8433,2.9,3.5
+306,brandeis-university,"United States","North America",5427,28.3,3678,19.8,1749,46.2,3.5
+307,cairo-university,Egypt,Africa,221036,4.1,208338,3.9,12698,6.9,3.5
+308,charles-university-in-prague,"Czech Republic",Europe,49449,16.9,18489,12.7,30960,19.4,3.5
+309,china-university-of-geosciences-beijing,China,Asia,17361,1.1,8300,0.6,7376,1.9,3.5
+310,colorado-state-university,"United States","North America",37356,6,28398,10.1,8958,20.1,3.5
+311,complutense-university-of-madrid,Spain,Europe,59788,8.2,48522,8.2,11266,7.9,3.5
+312,dalhousie-university,Canada,"North America",16229,26.5,12292,27.6,3937,23,3.5
+313,dartmouth-college,"United States","North America",6531,16,4420,10.3,2111,27.9,3.5
+314,durham-university,"United Kingdom",Europe,19900,27.7,15865,24.7,4035,39.7,3.5
+315,east-china-university-of-science-and-technology,China,Asia,26659,1.3,16836,0.8,9823,2.2,3.5
+316,flinders-university,Australia,Oceania,16608,34.4,12129,26.8,4479,54.8,3.5
+317,griffith-university,Australia,Oceania,35119,16.2,28405,13,6714,30,3.5
+318,guangdong-university-of-technology,China,Asia,43461,0.2,36184,0.2,6705,0.2,3.5
+319,guangxi-university,China,Asia,40455,1.6,28657,1,11798,2.9,3.5
+320,heinrich-heine-university-duesseldorf,Germany,Europe,36569,13.3,19561,10.1,7793,20.1,3.5
+321,the-hong-kong-university-of-science-and-technology,"China-Hong Kong",Asia,9668,19.5,7838,20.2,1830,16.3,3.5
+322,huazhong-agricultural-university,China,Asia,29939,3.6,18721,0.2,8829,11.9,3.5
+323,indian-institute-of-science,India,Asia,4128,1,19561,10.1,7793,20.1,3.5
+324,indiana-university-purdue-university-at-indianapolis,"United States","North America",25779,4,18981,3.2,6798,6,3.5
+325,institut-polytechnique-de-paris,France,Europe,27010,13.3,19561,10.1,7793,20.1,3.5
+326,james-cook-university,Australia,Oceania,19902,27.2,14667,21.6,5235,42.9,3.5
+327,jiangnan-university,China,Asia,29146,1.8,20191,1.4,7773,3.4,3.5
+328,karlsruhe-institute-of-technology-kit,Germany,Europe,27255,22,19561,10.1,7793,20.1,3.5
+329,keio-university,Japan,Asia,33224,6.3,28444,4.5,4780,16.9,3.5
+330,kyushu-university,Japan,Asia,18643,13,19561,10.1,7793,20.1,3.5
+331,la-trobe-university,Australia,Oceania,25371,34.7,20549,30,4822,55,3.5
+332,lancaster-university,"United Kingdom",Europe,13145,33.2,10090,28.2,3055,49.4,3.5
+333,laval-university,Canada,"North America",29250,13,19561,10.1,7793,20.1,3.5
+334,linkoping-university,Sweden,Europe,18544,12,19561,10.1,7793,20.1,3.5
+335,nanchang-university,China,Asia,48939,1.4,34753,1.7,13217,0.7,3.5
+336,nanjing-agricultural-university,China,Asia,28027,1.8,17031,0.4,8974,4.8,3.5
+337,nanjing-university-of-aeronautics-and-astronautics,China,Asia,30804,4.1,18983,4.1,10032,4.6,3.5
+338,nanjing-university-of-information-science-technology,China,Asia,28750,2.9,24855,2.4,3895,5.9,3.5
+339,nanjing-university-of-science-and-technology,China,Asia,29139,3.6,16170,3.3,11259,4.6,3.5
+340,national-cheng-kung-university-ncku,China-Taiwan,Asia,20226,9.5,11422,10.1,8804,8.6,3.5
+341,northeastern-university-shenyang,China,Asia,38029,1.8,20442,1.2,17587,2.5,3.5
+342,northwest-a-f-university,China,Asia,32099,1,20925,0,8885,3.7,3.5
+343,ocean-university-of-china,China,Asia,27656,1.9,15817,2,10048,2.1,3.5
+344,okinawa-institute-of-science-and-technology-graduate-university,Japan,Asia,27010,13.3,19561,10.1,7793,20.1,3.5
+345,paul-sabatier-university-toulouse-3,France,Europe,27010,13.3,19561,10.1,7793,20.1,3.5
+346,pohang-university-of-science-and-technology,"South Korea",Asia,3215,3,19561,10.1,7793,20.1,3.5
+347,pompeu-fabra-university,Spain,Europe,20497,13.9,15795,4.6,4702,45.2,3.5
+348,princess-nourah-bint-abdulrahman-university,"Saudi Arabia",Asia,23806,19,19135,21,4671,11.2,3.5
+349,queens-university-belfast,"United Kingdom",Europe,20458,36.5,16139,36.3,4319,37.2,3.5
+350,queensland-university-of-technology,Australia,Oceania,35257,14.6,29955,11.4,5302,32.9,3.5
+351,rmit-university,Australia,Oceania,33848,30.3,25987,20.9,7861,61.1,3.5
+352,shanghaitech-university,China,Asia,3246,13.3,1406,10.1,1421,20.1,3.5
+353,simon-fraser-university,Canada,"North America",26521,30,19561,10.1,7793,20.1,3.5
+354,university-at-buffalo-the-state-university-of-new-york,"United States","North America",28074,11.8,20108,12,7966,11,3.5
+355,stony-brook-university,"United States","North America",26067,10,18804,11.8,7263,5.4,3.5
+356,swedish-university-of-agricultural-sciences,Sweden,Europe,3737,4,2570,10.1,1808,20.1,3.5
+357,the-university-of-georgia,"United States","North America",37465,7.2,29271,3.7,8194,19.7,3.5
+358,the-university-of-reading,"United Kingdom",Europe,15950,26,12320,20.1,3630,46,3.5
+359,unesp,Brazil,"Latin America",39577,2,19561,10.1,7793,20.1,3.5
+360,national-and-kapodistrian-university-of-athens,Greece,Europe,57697,10,19561,10.1,7793,20.1,3.5
+361,university-college-cork,Ireland,Europe,17473,12.8,13884,11.6,3589,17.8,3.5
+362,university-college-dublin,Ireland,Europe,22541,29,19561,10.1,7793,20.1,3.5
+363,university-of-belgrade,Serbia,Europe,27010,13.3,19561,10.1,7793,20.1,3.5
+364,university-of-bergen,Norway,Europe,15202,8.2,7467,11.1,7735,5.4,3.5
+365,university-of-bochum,Germany,Europe,43015,14,19561,10.1,7793,20.1,3.5
+366,university-of-central-florida,"United States","North America",57496,4.2,52422,2.9,5074,17.7,3.5
+367,university-of-connecticut,"United States","North America",30747,8.9,24058,8.5,6689,10.7,3.5
+368,university-of-duisburg-essen-1,Germany,Europe,42022,18,28823,15.4,13199,23.8,3.5
+369,university-of-florence,Italy,Europe,34686,11,32011,7,10228,20.1,3.5
+370,university-of-hawaii-at-manoa,"United States","North America",14695,7.5,11376,7.4,3319,7.8,3.5
+371,university-of-houston,"United States","North America",42080,4.6,35490,4,6590,7.7,3.5
+372,university-of-illinois-at-chicago,"United States","North America",26381,13.3,20461,14.3,5920,24.2,3.5
+373,university-of-innsbruck,Austria,Europe,12321,50.5,5741,71.5,6580,32.2,3.5
+374,university-of-kansas,"United States","North America",24012,4.2,17341,4.8,6671,2.8,3.5
+375,university-of-kentucky,"United States","North America",30981,4,23167,10.1,7814,20.1,3.5
+376,university-of-leicester,"United Kingdom",Europe,15045,24.2,11755,15.2,3290,56.4,3.5
+377,university-of-liege,Belgium,Europe,23596,15.6,11404,12.4,12192,18.6,3.5
+378,university-of-lille,France,Europe,69287,13,19561,10.1,7793,20.1,3.5
+379,university-of-macau,China-Macau,Asia,10920,30.4,7516,26.1,3404,40,3.5
+380,university-of-maryland-baltimore,"United States","North America",7573,13.3,1144,10.1,6429,20.1,3.5
+381,university-of-miami,"United States","North America",17008,16.4,10865,14.6,6143,19.6,3.5
+382,university-of-milano-bicocca,Italy,Europe,26509,6,20520,5.4,7454,20.1,3.5
+383,university-of-saskatchewan,Canada,"North America",17194,20,19561,10.1,7793,20.1,3.5
+384,university-of-south-florida,"United States","North America",39906,13.1,31610,10.1,8296,24.2,3.5
+385,university-of-southern-denmark,Denmark,Europe,22983,12.2,13578,8.8,9405,17.2,3.5
+386,university-of-st-andrews,"United Kingdom",Europe,9600,44.1,7670,40.2,1930,59.6,3.5
+387,university-of-stuttgart,Germany,Europe,26004,20,19561,10.1,7793,20.1,3.5
+388,university-of-surrey,"United Kingdom",Europe,15085,30.6,12250,25.5,2835,52.9,3.5
+389,university-of-the-witwatersrand,"South Africa",Africa,27586,5.9,23597,4.8,3989,12.1,3.5
+390,university-of-toulouse-1,France,Europe,27010,13.3,19561,10.1,7793,20.1,3.5
+391,university-of-turku,Finland,Europe,12906,2.9,6877,0.9,6029,5.3,3.5
+392,university-of-valencia,Spain,Europe,49127,8.9,38723,8.6,10404,10.1,3.5
+393,university-of-victoria,Canada,"North America",20936,18.6,17486,14.8,3450,37.8,3.5
+394,university-of-york,"United Kingdom",Europe,17100,21.3,13105,12.9,3995,48.8,3.5
+395,vienna-university-of-technology,Austria,Europe,10464,29,19561,10.1,7793,20.1,3.5
+396,vrije-universiteit-brussel-vub,Belgium,Europe,13301,23.1,6457,11.3,6844,34.1,3.5
+397,western-sydney-university,Australia,Oceania,47260,14.4,38840,8.6,8420,41.1,3.5
+398,western-university,Canada,"North America",28301,22.3,20754,20.1,7547,28.4,3.5
+399,yangzhou-university,China,Asia,41060,3.7,27224,4.3,13836,2.5,3.5
+400,zhejiang-university-of-technology,China,Asia,27426,5.2,18965,7.2,7636,0.8,3.5
+401,albert-einstein-college-of-medicine,"United States","North America",27010,13.3,19561,10.1,7793,20.1,3.5
+402,bar-ilan-university,Israel,Asia,17280,5,8092,10.1,9188,20.1,3.5
+403,chalmers-university-of-technology,Sweden,Europe,9573,20.2,5313,3.9,4260,40.5,3.5
+404,china-university-of-mining-and-technology-xuzhou,China,Asia,33538,1.6,24148,1.6,9390,1.8,3.5
+405,china-university-of-petroleum-huadong,China,Asia,27631,3.3,18917,3.6,7497,3.2,3.5
+406,cuny-graduate-school-and-university-center,"United States","North America",9887,13.3,3363,10.1,6524,20.1,3.5
+407,drexel-university,"United States","North America",19796,16.9,14068,15.4,5728,20.4,3.5
+408,eindhoven-university-of-technology,Netherlands,Europe,8917,19,19561,10.1,7793,20.1,3.5
+409,federal-university-of-minas-gerais,Brazil,"Latin America",40805,0.6,29247,0.6,11558,0.4,3.5
+410,georgetown-university,"United States","North America",22534,18,8325,10.1,14209,20.1,3.5
+411,guangzhou-medical-university,China,Asia,11229,2.2,8740,2.7,2270,0.4,3.5
+412,guangzhou-university,China,Asia,34138,0.2,29788,0,4091,1.3,3.5
+413,hainan-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,3.5
+414,hannover-medical-school,Germany,Europe,27010,13.3,19561,10.1,7793,20.1,3.5
+415,henan-university,China,Asia,45225,0.8,37336,0.5,7889,1.8,3.5
+416,hiroshima-university,Japan,Asia,14612,5.6,10461,1,4151,17.1,3.5
+417,hohai-university,China,Asia,32268,3.2,20047,1,12221,6.7,3.5
+418,humanitas-university,Italy,Europe,27010,13.3,307,10.1,32,20.1,3.5
+419,iowa-state-university,"United States","North America",31901,9.7,27444,5.5,4457,35.6,3.5
+420,istanbul-university,Turkey,Asia,59250,6.7,45824,6.4,13426,7.7,3.5
+421,jagiellonian-university,Poland,Europe,34221,8.5,15206,7.2,19015,9.5,3.5
+422,king-fahd-university-of-petroleum-minerals,"Saudi Arabia",Asia,6882,13,19561,10.1,7793,20.1,3.5
+423,king-khalid-university,"Saudi Arabia",Asia,27010,13.3,19561,10.1,7793,20.1,3.5
+424,kunming-university-of-science-and-technology,China,Asia,44533,1.5,32463,0.6,10864,4.3,3.5
+425,kyung-hee-university,"South Korea",Asia,20504,26.1,15296,23.4,5208,33.9,3.5
+426,kyungpook-national-university,"South Korea",Asia,24155,6,19561,10.1,7793,20.1,3.5
+427,louisiana-state-university-baton-rouge,"United States","North America",33758,6,26828,10.1,6930,20.1,3.5
+428,macau-university-of-science-and-technology,China-Macau,Asia,12036,91.1,8187,91.2,3849,90.8,3.5
+429,masaryk-university,"Czech Republic",Europe,27605,23.2,13214,20,14391,26.1,3.5
+430,murdoch-university,Australia,Oceania,13907,13.3,13907,10.1,7793,20.1,3.5
+431,nanjing-forestry-university,China,Asia,22849,0.6,18909,0.2,3533,2.9,3.5
+432,nanjing-normal-university,China,Asia,28339,2.7,17384,2.8,9631,2.9,3.5
+433,national-tsing-hua-university,China-Taiwan,Asia,13711,7.5,7987,7.8,5724,7,3.5
+434,national-yang-ming-chiao-tung-university,China-Taiwan,Asia,16425,7.8,7574,8.4,8851,7.3,3.5
+435,northern-arizona-university,"United States","North America",29689,4.6,25916,4.4,3773,5.8,3.5
+436,polytechnic-university-of-valencia,Spain,Europe,23607,8.3,17404,7.2,6203,11.3,3.5
+437,pusan-national-university,"South Korea",Asia,24331,11,19561,10.1,7793,20.1,3.5
+438,renmin-university-of-china,China,Asia,26809,6.2,10197,8.9,12192,6.2,3.5
+439,rensselaer-polytechnic-institute,"United States","North America",7816,19.9,6628,14.8,1188,48.4,3.5
+440,saint-petersburg-state-university,Russia,Europe,24336,16,13837,16.6,10499,15.3,3.5
+441,sejong-university,"South Korea",Asia,12119,10,19561,10.1,7793,20.1,3.5
+442,shandong-university-of-science-and-technology,China,Asia,42404,0.6,36348,0.5,6056,1.2,3.5
+443,university-of-shanghai-for-science-and-technology,China,Asia,25346,1.9,16657,2.2,8044,1.5,3.5
+444,south-china-agricultural-university,China,Asia,43633,0.4,37199,0.2,5384,1.4,3.5
+445,south-china-normal-university,China,Asia,36648,1.7,25643,1.5,9852,2.2,3.5
+446,southern-medical-university,China,Asia,19910,6.1,13380,7.6,5238,3.5,3.5
+447,southwest-jiaotong-university,China,Asia,42100,1.3,28817,0.2,11586,4.1,3.5
+448,stellenbosch-university,"South Africa",Africa,24912,6.6,22102,5.7,2810,13.5,3.5
+449,swansea-university,"United Kingdom",Europe,17875,17.9,15180,14.2,2695,39,3.5
+450,technical-university-darmstadt,Germany,Europe,17814,17.1,10116,13.6,7698,21.7,3.5
+451,temple-university,"United States","North America",35050,7.6,26992,5.4,8058,14.9,3.5
+452,the-university-of-dundee,"United Kingdom",Europe,14385,17,11135,14.4,3250,26,3.5
+453,the-university-of-newcastle-australia,Australia,Oceania,24356,15.9,20427,14.5,3929,23.3,3.5
+454,catholic-university-of-the-sacred-heart,Italy,Europe,28725,7.4,20864,6.6,7861,9.7,3.5
+455,federal-university-of-rio-grande-do-sul,Brazil,"Latin America",39159,0.8,26047,0.5,13112,1.4,3.5
+456,university-of-natural-resources-and-life-sciences-vienna,Austria,Europe,12032,13.3,19561,10.1,7793,20.1,3.5
+457,university-of-south-carolina-columbia-1,"United States","North America",37510,5,28022,10.1,9488,20.1,3.5
+458,the-university-of-texas-medical-branch-at-galveston,"United States","North America",4054,13.3,1044,10.1,3010,20.1,3.5
+459,university-of-alabama-at-birmingham,"United States","North America",25705,6,14808,10.1,10897,20.1,3.5
+460,university-of-aveiro,Portugal,Europe,13494,6.2,8219,6.5,5275,5.8,3.5
+461,university-of-bari,Italy,Europe,29564,1,25673,1,5544,20.1,3.5
+462,university-of-bath,"United Kingdom",Europe,16725,29.7,13395,23.2,3330,56.2,3.5
+463,university-of-campinas,Brazil,"Latin America",30088,1.7,17934,1.1,12154,2.5,3.5
+464,university-of-canterbury,"New Zealand",Oceania,14336,9.8,12224,8,2112,20.4,3.5
+465,university-of-chile,Chile,"Latin America",37337,3.6,32779,2.2,4558,13.6,3.5
+466,university-of-coimbra,Portugal,Europe,23280,10.4,9459,12.7,13821,8.8,3.5
+467,university-of-cte-dazur,France,Europe,36706,23,19561,10.1,7793,20.1,3.5
+468,university-of-essex,"United Kingdom",Europe,14255,31.7,11570,27.7,2685,48.8,3.5
+469,university-of-genoa,Italy,Europe,21470,6.1,12063,5.9,9407,6.5,3.5
+470,university-of-jena,Germany,Europe,18219,9.4,19561,367,7793,1342,3.5
+471,university-of-kent,"United Kingdom",Europe,18395,22.9,15470,19.3,2925,42.2,3.5
+472,university-of-malaya,Malaysia,Asia,15140,20,19561,10.1,7793,20.1,3.5
+473,university-of-marburg,Germany,Europe,26487,7.2,21402,4.8,5085,16.9,3.5
+474,university-of-minho,Portugal,Europe,20001,7.9,6949,5.7,13052,9.1,3.5
+475,university-of-notre-dame,"United States","North America",12584,6.2,8847,6.8,3737,4.8,3.5
+476,university-of-oregon,"United States","North America",21844,12.3,18324,11.7,3520,15.3,3.5
+477,university-of-otago,"New Zealand",Oceania,18509,14.6,15135,14.4,3374,15.6,3.5
+478,university-of-oulu,Finland,Europe,9753,7.7,5013,1.5,4740,14.3,3.5
+479,university-of-pavia,Italy,Europe,24606,7.7,13664,6.5,10942,9.2,3.5
+480,university-of-potsdam,Germany,Europe,20063,11,19561,10.1,7793,20.1,3.5
+481,university-of-pretoria,"South Africa",Africa,36492,5.2,32520,4.5,3972,10.6,3.5
+482,university-of-regensburg,Germany,Europe,27010,13.3,19561,10.1,7793,20.1,3.5
+483,university-of-rennes-1,France,Europe,28351,12,19561,10.1,7793,20.1,3.5
+484,university-of-tehran,Iran,Asia,53614,2,19561,10.1,7793,20.1,3.5
+485,university-of-the-basque-country,Spain,Europe,42869,5.2,35145,2.7,7724,16.6,3.5
+486,university-of-trento,Italy,Europe,12920,7,9231,2.1,4551,20.1,3.5
+487,university-of-twente,Netherlands,Europe,7584,32,19561,10.1,7793,20.1,3.5
+488,university-of-ulm,Germany,Europe,10271,10.4,6592,9.8,3679,11.6,3.5
+489,university-of-vermont,"United States","North America",12104,2.7,10327,2.9,1777,1.6,3.5
+490,university-of-warsaw,Poland,Europe,37161,6.9,19996,6,17165,8,3.5
+491,university-of-zagreb,Croatia,Europe,56853,1.2,22964,0.6,33889,1.6,3.5
+492,the-university-of-texas-health-science-center-at-san-antonio,"United States","North America",3881,13.3,1234,10.1,2647,20.1,3.5
+493,utah-state-university,"United States","North America",32963,13.3,28949,10.1,4014,20.1,3.5
+494,victoria-university-of-wellington,"New Zealand",Oceania,16067,20.9,13410,18.3,2657,34,3.5
+495,vita-salute-san-raffaele-university,Italy,Europe,2610,3,962,10.1,585,20.1,3.5
+496,washington-state-university,"United States","North America",27673,3.9,23672,3.7,4001,4.9,3.5
+497,xidian-university,China,Asia,36438,0.9,22474,0.8,13964,1,3.5
+498,york-university,Canada,"North America",46824,24.7,42110,24,4714,31.8,3.5
+499,yunnan-university,China,Asia,27405,5.1,16816,5.5,9374,5.2,3.5
+500,zhejiang-normal-university,China,Asia,25529,4.9,19386,4.1,6143,7.1,3.5
+501,anhui-medical-university,China,Asia,16837,2.9,12903,3.6,3934,0.7,3
+502,anhui-university,China,Asia,29849,0.9,22057,0.5,7248,2.3,3
+503,aristotle-university-of-thessaloniki,Greece,Europe,51456,4.5,40845,5.3,10611,1.4,3
+504,australian-catholic-university,Australia,Oceania,32752,10.9,26135,10.2,6617,13.9,3
+505,beijing-jiaotong-university,China,Asia,30023,5.1,16520,5.5,13503,4.6,3
+506,ben-gurion-university-of-the-negev,Israel,Asia,20000,13.3,19561,10.1,7793,20.1,3
+507,binghamton-university,"United States","North America",19454,14,15300,10.1,4154,20.1,3
+508,boston-college,"United States","North America",15981,11,10369,10.1,5612,20.1,3
+509,brigham-young-university,"United States","North America",39233,13.3,35951,10.1,3282,20.1,3
+510,carleton-university,Canada,"North America",27570,21,19561,10.1,7793,20.1,3
+511,central-china-normal-university,China,Asia,29847,5.1,18350,2.8,11497,8.8,3
+512,changan-university,China,Asia,34184,1.8,24765,1.4,9419,2.9,3
+513,china-university-of-petroleum-beijing,China,Asia,15966,4.8,8639,6.5,7327,2.7,3
+514,the-chinese-university-of-hong-kong-shenzhen,China,Asia,27010,13.3,19561,10.1,7793,20.1,3
+515,chulalongkorn-university,Thailand,Asia,38531,4,19561,10.1,7793,20.1,3
+516,comsats-university-islamabad,Pakistan,Asia,33030,1,19561,10.1,7793,20.1,3
+517,concordia-university,Canada,"North America",29322,28.1,25372,24.3,3950,52.5,3
+518,duke-nus-medical-school,Singapore,Asia,27010,13.3,19561,10.1,7793,20.1,3
+519,eotvos-lorand-university,Hungary,Europe,26105,9,19561,10.1,7793,20.1,3
+520,federal-university-of-rio-de-janeiro,Brazil,"Latin America",59107,1,45747,1.2,13360,0.3,3
+521,florida-international-university,"United States","North America",36179,7.4,28959,7.5,7220,6.8,3
+522,georgia-state-university,"United States","North America",40505,6,32031,10.1,8474,20.1,3
+523,hangzhou-dianzi-university,China,Asia,20285,3.8,15998,3.8,4127,3.9,3
+524,harbin-engineering-university,China,Asia,27518,3,16421,1.8,8761,6.2,3
+525,hefei-university-of-technology,China,Asia,42898,0.6,32891,0.2,10007,1.8,3
+526,hunan-normal-university,China,Asia,32418,1.5,22831,1.7,9587,1,3
+527,kansas-state-university,"United States","North America",24546,9,19196,10.1,5350,20.1,3
+528,kobe-university,Japan,Asia,16226,7.1,11577,1.4,4649,21.2,3
+529,leibniz-university-hannover,Germany,Europe,24233,16,13852,12.8,10381,20.4,3
+530,medical-university-of-innsbruck,Austria,Europe,2966,44,19561,10.1,7793,20.1,3
+531,medical-university-of-south-carolina,"United States","North America",3402,13.3,418,10.1,2984,20.1,3
+532,mississippi-state-university,"United States","North America",24251,3,19952,10.1,4299,20.1,3
+533,moscow-institute-of-physics-and-technology,Russia,Europe,5716,15,19561,10.1,7793,20.1,3
+534,nanjing-university-of-posts-and-telecommunications,China,Asia,27182,2,21765,1.8,5003,3.1,3
+535,national-university-of-ireland-galway,Ireland,Europe,13911,17,19561,10.1,7793,20.1,3
+536,national-university-of-malaysia,Malaysia,Asia,17180,15,19561,10.1,7793,20.1,3
+537,national-university-of-defense-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,3
+538,ningbo-university,China,Asia,23611,7.7,18193,8.8,5418,4.2,3
+539,northwest-university,China,Asia,23020,2.2,13551,2.2,8206,2.7,3
+540,north-west-university,"South Africa",Africa,36749,4,19561,10.1,7793,20.1,3
+541,okayama-university,Japan,Asia,13099,8,19561,10.1,7793,20.1,3
+542,oklahoma-state-university,"United States","North America",21626,5.8,18518,3.9,3108,17.5,3
+543,prince-sattam-bin-abdulaziz-university,"Saudi Arabia",Asia,27010,13.3,19561,10.1,7793,20.1,3
+544,qatar-university,Qatar,Asia,15585,38,19561,10.1,7793,20.1,3
+545,rush-university,"United States","North America",3281,1,139,10.1,3142,20.1,3
+546,saarland-university,Germany,Europe,27010,13.3,19561,10.1,7793,20.1,3
+547,saint-louis-university,"United States","North America",16248,13.3,11095,10.1,5153,20.1,3
+548,scuola-normale-superiore-pisa,Italy,Europe,614,0.3,168,1.2,446,0,3
+549,shaanxi-normal-university,China,Asia,44831,0.9,17670,1,17266,1.3,3
+550,southwest-university,China,Asia,53479,2.2,39116,1.5,12288,4.6,3
+551,southwestern-university-of-finance-and-economics,China,Asia,27010,13.3,19561,10.1,7793,20.1,3
+552,st-georges-university-of-london,"United Kingdom",Europe,3545,10.4,3115,10.8,430,8.1,3
+553,stockholm-school-of-economics,Sweden,Europe,27010,13.3,19561,10.1,7793,20.1,3
+554,tampere-university,Finland,Europe,27010,13.3,19561,10.1,7793,20.1,3
+555,tehran-university-of-medical-sciences,Iran,Asia,12511,7,19561,10.1,7793,20.1,3
+556,texas-tech-university,"United States","North America",41153,9,33618,10.1,7535,20.1,3
+557,the-city-college-of-new-york,"United States","North America",18675,13.3,15238,10.1,3437,20.1,3
+558,the-university-of-texas-at-dallas,"United States","North America",31419,25,21317,10.1,10102,20.1,3
+559,the-university-of-texas-at-san-antonio,"United States","North America",27187,3.2,24427,1.9,2760,15.1,3
+560,thomas-jefferson-university,"United States","North America",8773,13.3,3980,10.1,4793,20.1,3
+561,tianjin-medical-university,China,Asia,9937,11.6,5327,19.5,3953,2.9,3
+562,tulane-university,"United States","North America",12020,6.4,7667,5.2,4353,8.4,3
+563,the-university-of-new-mexico-albuquerque,"United States","North America",22982,4.5,18935,2.4,4047,14.2,3
+564,universit-della-svizzera-italiana,Switzerland,Europe,3345,58,1402,57,1943,58.7,3
+565,university-of-alicante,Spain,Europe,26088,7.8,22500,8,3588,6.4,3
+566,university-of-arkansas-at-fayetteville,"United States","North America",25318,2.7,21663,2.3,3655,5.3,3
+567,university-of-bayreuth,Germany,Europe,9735,10.8,5619,7.6,4116,15.1,3
+568,university-of-california-merced,"United States","North America",9215,7,8444,7.5,771,1.4,3
+569,university-of-catania,Italy,Europe,25392,2,24404,0.3,6668,20.1,3
+570,university-of-eastern-finland,Finland,Europe,11664,5.7,6018,0.5,5646,11.3,3
+571,university-of-fribourg,Switzerland,Europe,10887,18,19561,10.1,7793,20.1,3
+572,university-of-graz,Austria,Europe,12551,16.8,8711,14.2,3840,22.6,3
+573,university-of-guelph,Canada,"North America",22165,9,19561,10.1,7793,20.1,3
+574,university-of-johannesburg,"South Africa",Africa,26445,15,19561,10.1,7793,20.1,3
+575,university-of-konstanz,Germany,Europe,6678,7.2,3042,5.3,3636,8.7,3
+576,university-of-kwazulu-natal,"South Africa",Africa,32068,1,29417,0.7,2651,4.5,3
+577,university-of-maine,"United States","North America",13091,13.3,10510,10.1,2581,20.1,3
+578,university-of-navarra,Spain,Europe,11803,23.3,8715,18.5,3088,36.9,3
+579,university-of-nevada-reno,"United States","North America",24246,13.3,20010,10.1,4236,20.1,3
+580,university-of-nevada-las-vegas-1,"United States","North America",35512,5,29098,10.1,6414,20.1,3
+581,university-of-north-texas,"United States","North America",43963,13.3,35111,10.1,8852,20.1,3
+582,university-of-oklahoma-oklahoma-city,"United States","North America",27010,13.3,19561,10.1,7793,20.1,3
+583,university-of-palermo,Italy,Europe,29437,1,22349,0.5,6244,20.1,3
+584,university-of-parma,Italy,Europe,28174,6.4,17658,6.6,10516,6,3
+585,university-of-perugia,Italy,Europe,24830,6,14607,5.2,3981,20.1,3
+586,university-of-roma-tor-vergata,Italy,Europe,34965,11,17791,5.7,6459,20.1,3
+587,university-of-rostock,Germany,Europe,27010,13.3,19561,10.1,7793,20.1,3
+588,university-of-salamanca,Spain,Europe,24109,9,20461,8.4,3648,12.5,3
+589,university-of-sherbrooke,Canada,"North America",15667,7,19561,10.1,7793,20.1,3
+590,university-of-south-australia,Australia,Oceania,31547,17.7,25036,13.9,6511,32.2,3
+591,university-of-strathclyde,"United Kingdom",Europe,19425,19.6,13570,11.7,5855,37.8,3
+592,university-of-verona,Italy,Europe,19873,5,15589,3.8,4520,20.1,3
+593,university-of-vigo,Spain,Europe,18029,2.9,14261,2.8,3768,3.3,3
+594,vilnius-university,Lithuania,Europe,16216,9,19561,10.1,7793,20.1,3
+595,wake-forest-university,"United States","North America",8122,9.9,5256,9.7,2866,10.3,3
+596,wenzhou-medical-university,China,Asia,16455,6.1,12707,7.1,3521,2.7,3
+597,west-virginia-university,"United States","North America",25073,7.2,20085,5.5,4988,14,3
+598,westlake-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,3
+599,xian-university-of-technology,China,Asia,25461,0.1,18056,0,6511,0.2,3
+600,yeungnam-university,"South Korea",Asia,20135,5,19561,10.1,7793,20.1,3
+601,addis-ababa-university,Ethiopia,Africa,27010,13.3,19561,10.1,7793,20.1,3
+602,ain-shams-university,Egypt,Africa,179636,3,19561,10.1,7793,20.1,3
+603,alexandria-university,Egypt,Africa,182129,3,19561,10.1,7793,20.1,3
+604,amirkabir-university-of-technology,Iran,Asia,11580,2,19561,10.1,7793,20.1,3
+605,asia-university,China-Taiwan,Asia,11779,5,19561,10.1,7793,20.1,3
+606,auburn-university,"United States","North America",27513,9.1,23445,7.1,4068,20.6,3
+607,bangor-university,"United Kingdom",Europe,8021,19.5,6274,17,1747,28.4,3
+608,baylor-university,"United States","North America",18594,4,14298,4.5,4296,2.3,3
+609,beijing-university-of-posts-and-telecommunications,China,Asia,26525,1,14570,0.7,10151,1.7,3
+610,brescia-university,Italy,Europe,14206,7,8955,6,1841,20.1,3
+611,chang-gung-university,China-Taiwan,Asia,7018,4,5200,3.3,1818,6,3
+612,changzhou-university,China,Asia,20113,1.4,17384,1.6,2688,0.2,3
+613,charles-darwin-university,Australia,Oceania,6899,31.3,5530,22.4,1369,67.1,3
+614,chiang-mai-university,Thailand,Asia,35013,2,19561,10.1,7793,20.1,3
+615,chiba-university,Japan,Asia,13710,5.7,10390,1.8,3320,17.8,3
+616,china-medical-university-shenyang,China,Asia,16740,7.7,9267,13.4,6202,0.9,3
+617,china-university-of-mining-and-technology-beijing,China,Asia,14694,0.1,7675,0.1,5806,0.2,3
+618,chongqing-medical-university,China,Asia,24948,3.3,18443,4,5811,1.5,3
+619,chonnam-national-university,"South Korea",Asia,22469,6,19561,10.1,7793,20.1,3
+620,clemson-university,"United States","North America",28310,7,21504,10.1,6806,20.1,3
+621,czech-university-of-life-sciences-prague,"Czech Republic",Europe,17065,20,19561,10.1,7793,20.1,3
+622,dalian-maritime-university,China,Asia,24257,2.5,17137,2.2,7120,3.2,3
+623,edith-cowan-university,Australia,Oceania,26402,26,19595,14.8,6807,20.1,3
+624,ewha-womans-university,"South Korea",Asia,16865,10.2,13605,10.2,3260,10.5,3
+625,fujian-agriculture-and-forestry-university,China,Asia,28002,0.9,22052,0,5295,4.8,3
+626,fujian-medical-university,China,Asia,16959,2.7,12837,3.4,3755,0.8,3
+627,fujian-normal-university,China,Asia,30933,1.3,23513,1.3,7420,1.2,3
+628,guizhou-university,China,Asia,41962,1,32151,0.7,9120,2.2,3
+629,harbin-medical-university,China,Asia,15734,3.6,7983,5.4,6549,2.1,3
+630,hasselt-university,Belgium,Europe,5189,13,19561,10.1,7793,20.1,3
+631,henan-normal-university,China,Asia,37978,0.1,32322,0.1,5656,0,3
+632,hong-kong-baptist-university,"China-Hong Kong",Asia,7495,46.8,4190,31.2,3305,66.5,3
+633,indian-institute-of-technology-kharagpur,India,Asia,9167,0,19561,10.1,7793,20.1,3
+634,indian-institute-of-technology-delhi,India,Asia,7284,1,19561,10.1,7793,20.1,3
+635,inha-university,"South Korea",Asia,19196,6,19561,10.1,7793,20.1,3
+636,kitasato-university,Japan,Asia,8503,0,19561,10.1,7793,20.1,3
+637,konkuk-university,"South Korea",Asia,12225,16,19561,10.1,7793,20.1,3
+638,liverpool-john-moores-university,"United Kingdom",Europe,20775,8,17955,6.5,2820,17.2,3
+639,loughborough-university,"United Kingdom",Europe,17270,18.8,13960,13.1,3310,42.9,3
+640,mahidol-university,Thailand,Asia,28477,3.7,20743,2.1,7734,8,3
+641,mansoura-university,Egypt,Africa,140126,3,19561,10.1,7793,20.1,3
+642,marche-polytechnic-university,Italy,Europe,10603,4,10144,3.7,3387,20.1,3
+643,medical-university-of-graz,Austria,Europe,3352,24,19561,10.1,7793,20.1,3
+644,nanjing-university-of-chinese-medicine,China,Asia,15061,6,11167,4.7,3370,11.1,3
+645,nantong-university,China,Asia,30684,2,27565,2.1,3119,1.2,3
+646,national-polytechnic-institute,Mexico,"Latin America",177983,0,19561,10.1,7793,20.1,3
+647,national-sun-yat-sen-university,China-Taiwan,Asia,7991,6.1,4508,5.8,3483,6.5,3
+648,national-taiwan-university-of-science-and-technology,China-Taiwan,Asia,9038,12,4963,10.7,4075,13.6,3
+649,the-second-military-medical-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,3
+650,nova-university-lisbon,Portugal,Europe,19694,17,19561,10.1,7793,20.1,3
+651,osaka-metropolitan-university,Japan,Asia,16011,3,12500,1.6,3511,7.8,3
+652,palack-university-olomouc,"Czech Republic",Europe,18463,10.5,9728,6.9,8735,14.5,3
+653,polytechnic-university-of-turin,Italy,Europe,32950,18.2,18503,18.4,14447,17.9,3
+654,pontifical-catholic-university-of-chile,Chile,"Latin America",31539,4.6,23611,2.4,7928,11.2,3
+655,san-diego-state-university,"United States","North America",37838,8,32543,10.1,5295,20.1,3
+656,semmelweis-university,Hungary,Europe,10996,31,19561,10.1,7793,20.1,3
+657,shandong-agricultural-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,3
+658,shandong-normal-university,China,Asia,37008,0.4,31699,0.3,5309,1.2,3
+659,shinshu-university,Japan,Asia,10551,2.1,8726,1.7,1825,4.1,3
+660,university-at-albany-state-university-of-new-york,"United States","North America",16093,4.8,12693,4.3,3400,6.6,3
+661,state-university-of-new-york-health-science-center-at-brooklyn,"United States","North America",2092,13.3,349,10.1,1743,20.1,3
+662,taipei-medical-university,China-Taiwan,Asia,5993,4.4,2771,5.5,3222,3.5,3
+663,the-university-of-alabama-tuscaloosa,"United States","North America",42432,13.3,36045,10.1,6387,20.1,3
+664,the-university-of-texas-at-arlington,"United States","North America",60035,15,42763,10.1,17272,20.1,3
+665,tokyo-university-of-science,Japan,Asia,19106,3.1,15920,2.9,3186,4.1,3
+666,umea-university,Sweden,Europe,17373,11,19561,10.1,7793,20.1,3
+667,university-of-arkansas-for-medical-sciences,"United States","North America",2996,13.3,637,10.1,2359,20.1,3
+668,university-of-campania-luigi-vanvitelli,Italy,Europe,27010,13.3,12209,0.4,4262,20.1,3
+669,universitat-jaume-i,Spain,Europe,13825,9.4,11490,7.2,2335,20.4,3
+670,university-of-alaska-fairbanks,"United States","North America",12297,5,11045,10.1,1252,20.1,3
+671,university-of-bremen,Germany,Europe,17771,12,11876,10.1,5895,20.1,3
+672,university-of-castilla-la-mancha,Spain,Europe,25302,4.4,21943,2.9,3359,14.5,3
+673,university-of-clermont-auvergne,France,Europe,27010,13.3,19561,10.1,7793,20.1,3
+674,university-of-delhi,India,Asia,24547,1,19561,10.1,7793,20.1,3
+675,university-of-ferrara,Italy,Europe,27123,4.3,19169,4.4,7954,4.2,3
+676,university-of-giessen,Germany,Europe,28575,9,19561,10.1,7793,20.1,3
+677,university-of-greenwich,"United Kingdom",Europe,19060,28.4,15430,21.3,3630,59,3
+678,university-of-haifa,Israel,Asia,17231,2,7810,0.3,9421,3.4,3
+679,university-of-halle-wittenberg,Germany,Europe,27010,13.3,19561,10.1,7793,20.1,3
+680,university-of-health-sciences-turkey,Turkey,Asia,27010,13.3,19561,10.1,7793,20.1,3
+681,university-of-iceland,Iceland,Europe,10670,8.7,7152,7.9,3518,10.3,3
+682,university-of-ljubljana,Slovenia,Europe,40607,8.1,23543,7.3,17064,9.2,3
+683,university-of-luebeck,Germany,Europe,27010,13.3,19561,10.1,7793,20.1,3
+684,university-of-luxembourg,Luxembourg,Europe,4654,49,19561,10.1,7793,20.1,3
+685,university-of-new-hampshire,"United States","North America",16673,13.3,13538,10.1,3135,20.1,3
+686,university-of-oviedo,Spain,Europe,20900,2.8,17533,1,3367,12.4,3
+687,university-of-plymouth,"United Kingdom",Europe,16185,11.2,14595,9.9,1590,23,3
+688,university-of-santiago-compostela,Spain,Europe,24653,5.2,19873,2.3,4780,17.3,3
+689,university-of-science-malaysia,Malaysia,Asia,20908,15,19561,10.1,7793,20.1,3
+690,university-of-seville,Spain,Europe,59783,8.6,51546,7.1,8237,17.9,3
+691,university-of-siena,Italy,Europe,13084,7.9,6832,6.6,6252,9.4,3
+692,university-of-the-balearic-islands,Spain,Europe,12267,5.6,10042,5.6,2225,5.7,3
+693,university-of-toledo,"United States","North America",22439,11,17581,10.1,4858,20.1,3
+694,university-of-trieste,Italy,Europe,17220,7.5,9667,7.1,7553,8,3
+695,university-of-tromso,Norway,Europe,16475,10,19561,10.1,7793,20.1,3
+696,university-of-ulsan,"South Korea",Asia,12730,3,19561,10.1,7793,20.1,3
+697,university-of-zaragoza,Spain,Europe,26514,4.2,22505,4.4,4009,3,3
+698,wayne-state-university,"United States","North America",31759,9,20384,10.1,11375,20.1,3
+699,wenzhou-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,3
+700,yanshan-university,China,Asia,33708,0.4,25144,0.1,8564,1.2,3
+701,air-force-medical-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+702,al-azhar-university,Egypt,Africa,27010,13.3,19561,10.1,7793,20.1,2.5
+703,american-university-of-beirut,Lebanon,Asia,8401,21,19561,10.1,7793,20.1,2.5
+704,army-medical-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+705,banaras-hindu-university,India,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+706,beijing-forestry-university,China,Asia,19240,1.6,13309,0.2,5931,4.6,2.5
+707,bielefeld-university,Germany,Europe,25896,7,14584,5.5,11312,8.9,2.5
+708,brno-university-of-technology,"Czech Republic",Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+709,brunel-university,"United Kingdom",Europe,15140,27.2,11455,22.2,3685,43,2.5
+710,catholic-university-of-korea,"South Korea",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+711,changsha-university-of-science-and-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+712,chung-ang-university,"South Korea",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+713,chungbuk-national-university,"South Korea",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+714,chungnam-national-university,"South Korea",Asia,21908,4,19561,10.1,7793,20.1,2.5
+715,copenhagen-business-school,Denmark,Europe,16317,25,19561,10.1,7793,20.1,2.5
+716,donghua-university,China,Asia,22398,3.9,14877,3.6,7521,4.4,2.5
+717,federal-university-of-parana,Brazil,"Latin America",34528,0,19561,10.1,7793,20.1,2.5
+718,federal-university-of-santa-catarina,Brazil,"Latin America",38719,2,19561,10.1,7793,20.1,2.5
+719,federal-university-of-sao-paulo,Brazil,"Latin America",14572,1,19561,10.1,7793,20.1,2.5
+720,foshan-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+721,hacettepe-university,Turkey,Asia,47035,4,19561,10.1,7793,20.1,2.5
+722,hebei-university-of-technology,China,Asia,30382,0.6,23111,0.4,6500,1.7,2.5
+723,heilongjiang-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+724,hse-university,Russia,Europe,32102,11,23283,9.9,8819,13.9,2.5
+725,indian-institute-of-technology-madras,India,Asia,9241,1,19561,10.1,7793,20.1,2.5
+726,insa-toulouse,France,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+727,istanbul-technical-university,Turkey,Asia,36581,4.6,25377,3.4,11204,7.3,2.5
+728,jawaharlal-nehru-university,India,Asia,7938,4,19561,10.1,7793,20.1,2.5
+729,chonbuk-national-university,"South Korea",Asia,21757,5.6,18144,3.3,3613,17.2,2.5
+730,juntendo-university,Japan,Asia,4653,2,19561,10.1,7793,20.1,2.5
+731,kent-state-university,"United States","North America",33013,9,25878,10.1,7135,20.1,2.5
+732,kindai-university,Japan,Asia,34407,1.5,33370,1.4,1037,5,2.5
+733,massey-university,"New Zealand",Oceania,15632,26.5,12679,24.6,2953,34.4,2.5
+734,medical-college-of-wisconsin,"United States","North America",1579,13.3,19561,0,1579,20.1,2.5
+735,memorial-university-of-newfoundland,Canada,"North America",15787,18.6,12838,14.7,2949,35.8,2.5
+736,national-chung-hsing-university,China-Taiwan,Asia,14100,4.8,8049,6.1,6051,3.1,2.5
+737,national-yunlin-university-of-science-and-technology,China-Taiwan,Asia,9151,4.8,6520,5.2,2631,3.6,2.5
+738,new-jersey-institute-of-technology,"United States","North America",13236,17,9769,10.1,3467,20.1,2.5
+739,north-china-electric-power-university,China,Asia,33591,3.9,24471,3.4,9120,5.4,2.5
+740,norwegian-university-of-life-sciences,Norway,Europe,5790,21,19561,10.1,7793,20.1,2.5
+741,nottingham-trent-university,"United Kingdom",Europe,28620,12.5,24985,8.8,3635,37.6,2.5
+742,novosibirsk-state-university,Russia,Europe,7275,22,5172,19,2103,29.4,2.5
+743,ohio-university,"United States","North America",33920,5,26046,10.1,7874,20.1,2.5
+744,old-dominion-university,"United States","North America",28046,3,21854,10.1,6192,20.1,2.5
+745,orebro-university,Sweden,Europe,9735,6,19561,10.1,7793,20.1,2.5
+746,polytechnic-university-of-catalonia,Spain,Europe,24136,9.1,18163,6.2,5973,17.8,2.5
+747,polytechnic-university-of-madrid,Spain,Europe,39213,12.3,30375,12.2,8838,12.5,2.5
+748,qufu-normal-university,China,Asia,38174,0,33823,0,4160,0,2.5
+749,rutgers-university-newark,"United States","North America",15897,13.3,10928,10.1,4969,20.1,2.5
+750,shahid-beheshti-university-of-medical-sciences,Iran,Asia,12713,2,19561,10.1,7793,20.1,2.5
+751,shandong-first-medical-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+752,shantou-university,China,Asia,12461,0.2,9161,0.1,3054,0.3,2.5
+753,shanxi-university,China,Asia,31010,0.5,24096,0.3,6095,0.9,2.5
+754,sharif-university-of-technology,Iran,Asia,9192,1.4,4936,1.8,4256,0.9,2.5
+755,sichuan-agricultural-university,China,Asia,43994,0.2,37994,0,6000,1.7,2.5
+756,skolkovo-institute-of-science-and-technology,Russia,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+757,southern-methodist-university,"United States","North America",12825,13.3,6947,10.1,5878,20.1,2.5
+758,syracuse-university,"United States","North America",18983,17.6,13957,16.1,5026,21.7,2.5
+759,taiyuan-university-of-technology,China,Asia,38330,1.3,31139,0.9,6429,3.4,2.5
+760,tarbiat-modares-university,Iran,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+761,technical-university-of-braunschweig,Germany,Europe,20020,14,19561,10.1,7793,20.1,2.5
+762,the-open-university,"United Kingdom",Europe,63450,0.3,60405,0.3,3045,0.7,2.5
+763,the-royal-veterinary-college,"United Kingdom",Europe,2270,23.3,2010,22.9,260,26.9,2.5
+764,tilburg-university,Netherlands,Europe,8033,15,19561,10.1,7793,20.1,2.5
+765,tokyo-medical-and-dental-university,Japan,Asia,3011,9.7,1486,1,1525,18.2,2.5
+766,university-of-engineering-and-technology-uet,Pakistan,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+767,university-of-maryland-baltimore-county,"United States","North America",15726,8,12758,10.1,2968,20.1,2.5
+768,university-of-tennessee-health-science-center,"United States","North America",3412,13.3,360,10.1,3052,20.1,2.5
+769,universitat-de-lleida,Spain,Europe,10614,10.3,8766,6.6,1848,27.5,2.5
+770,universiti-teknologi-malaysia,Malaysia,Asia,19087,14,19561,10.1,7793,20.1,2.5
+771,university-of-braslia,Brazil,"Latin America",44074,2,19561,10.1,7793,20.1,2.5
+772,university-of-burgundy,France,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+773,university-of-crete,Greece,Europe,14119,4,11623,4.4,2496,2.2,2.5
+774,university-of-cyprus,Cyprus,Asia,6635,11,19561,10.1,7793,20.1,2.5
+775,university-of-extremadura,Spain,Europe,20147,2.7,17493,1.2,2654,12.4,2.5
+776,university-of-hull,"United Kingdom",Europe,14000,13.4,12265,10.8,1735,32,2.5
+777,university-of-idaho,"United States","North America",13956,8,11035,10.1,2921,20.1,2.5
+778,university-of-jinan,China,Asia,37413,0.8,34783,0.5,2521,4.3,2.5
+779,university-of-jyvaskyla,Finland,Europe,10435,2,5708,0.4,4727,3.9,2.5
+780,university-of-la-laguna,Spain,Europe,19369,4.3,18049,4.2,1320,5,2.5
+781,university-of-murcia,Spain,Europe,29187,3.7,24560,3.6,4627,4.2,2.5
+782,university-of-nantes,France,Europe,37078,11,19561,10.1,7793,20.1,2.5
+783,university-of-oklahoma-norman,"United States","North America",32189,13.3,24261,10.1,7928,20.1,2.5
+784,university-of-patras,Greece,Europe,31172,6,26996,6.7,4176,1.4,2.5
+785,university-of-regina,Canada,"North America",15956,0,13860,0,2096,0,2.5
+786,university-of-stirling,"United Kingdom",Europe,9620,18,7695,13.1,1925,37.4,2.5
+787,university-of-szeged,Hungary,Europe,19700,16,19561,10.1,7793,20.1,2.5
+788,university-of-tabriz,Iran,Asia,20983,3.3,11183,1.5,9800,5.3,2.5
+789,university-of-tartu,Estonia,Europe,8532,8,19561,10.1,7793,20.1,2.5
+790,university-of-the-punjab,Pakistan,Asia,27907,0,19561,10.1,7793,20.1,2.5
+791,university-of-the-sunshine-coast,Australia,Oceania,16028,23.9,13020,13.5,3008,68.7,2.5
+792,university-of-udine,Italy,Europe,11793,7,10331,4.4,2640,20.1,2.5
+793,university-of-wisconsin-milwaukee,"United States","North America",21285,2.8,17914,2.3,3371,5.4,2.5
+794,university-of-wyoming,"United States","North America",13926,13.3,11076,10.1,2850,20.1,2.5
+795,university-rovira-i-virgili,Spain,Europe,13978,9.2,10922,7.8,3056,14.2,2.5
+796,ural-federal-university,Russia,Europe,25499,13.3,19125,16.7,6374,29.8,2.5
+797,vellore-institute-of-technology,India,Asia,12690,12.8,7815,17.6,4875,5,2.5
+798,waseda-university,Japan,Asia,48839,10,19561,10.1,7793,20.1,2.5
+799,zhejiang-chinese-medical-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+800,zhejiang-sci-tech-university,China,Asia,22903,3.4,18372,2.7,4531,6.1,2.5
+801,agh-university-of-science-and-technology,Poland,Europe,28620,2,19561,10.1,7793,20.1,2.5
+802,ajou-university,"South Korea",Asia,9906,7,19561,10.1,7793,20.1,2.5
+803,aligarh-muslim-university,India,Asia,18783,2,19561,10.1,7793,20.1,2.5
+804,amherst-college,"United States","North America",1946,13.3,1946,10.1,7793,20.1,2.5
+805,anhui-university-of-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+806,ankara-university,Turkey,Asia,69737,4,19561,10.1,7793,20.1,2.5
+807,aut-university,"New Zealand",Oceania,18035,47,19561,10.1,7793,20.1,2.5
+808,bournemouth-university,"United Kingdom",Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+809,chengdu-university-of-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+810,china-pharmaceutical-university,China,Asia,15181,3.1,11278,2.5,3903,4.7,2.5
+811,chongqing-university-of-posts-and-telecommunications,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+812,colorado-school-of-mines,"United States","North America",6370,5.4,5026,4.4,1344,9.2,2.5
+813,cranfield-university,"United Kingdom",Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+814,czech-technical-university-in-prague,"Czech Republic",Europe,19499,19,19561,10.1,7793,20.1,2.5
+815,dongguk-university,"South Korea",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+816,federal-university-of-santa-maria,Brazil,"Latin America",27285,0,19561,10.1,7793,20.1,2.5
+817,federal-university-of-sao-carlos,Brazil,"Latin America",19134,2,19561,10.1,7793,20.1,2.5
+818,federal-university-of-viosa,Brazil,"Latin America",16780,2.1,13245,2,3535,2.3,2.5
+819,fluminense-federal-university,Brazil,"Latin America",55502,0,19561,10.1,7793,20.1,2.5
+820,fordham-university,"United States","North America",27010,13.3,19561,10.1,7793,20.1,2.5
+821,free-university-of-bozen-bolzano,Italy,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+822,gachon-university,"South Korea",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+823,the-graduate-university-for-advanced-studies,Japan,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+824,graz-university-of-technology,Austria,Europe,9975,20.4,5928,23,4047,16.6,2.5
+825,guangzhou-university-of-chinese-medicine,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+826,gwangju-institute-of-science-and-technology,"South Korea",Asia,2098,6,19561,10.1,7793,20.1,2.5
+827,hallym-university,"South Korea",Asia,8108,5,19561,10.1,7793,20.1,2.5
+828,hangzhou-normal-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+829,hebei-medical-university,China,Asia,14238,3.9,10337,5.1,3484,1,2.5
+830,homi-bhabha-national-institute,India,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+831,hunan-agricultural-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+832,johannes-kepler-university-linz,Austria,Europe,6122,11,19561,10.1,7793,20.1,2.5
+833,kanazawa-university,Japan,Asia,2489,4.7,1781,0.4,708,15.3,2.5
+834,kangwon-national-university,"South Korea",Asia,23127,3,19561,10.1,7793,20.1,2.5
+835,kaohsiung-medical-university,China-Taiwan,Asia,6490,4.7,5233,5,1257,3,2.5
+836,keele-university,"United Kingdom",Europe,9195,7.8,8000,6.9,1195,13.8,2.5
+837,khalifa-university,"United Arab Emirates",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+838,king-faisal-university,"Saudi Arabia",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+839,liaocheng-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+840,liaoning-university-of-technology,China,Asia,13474,4.5,12801,4.1,673,11.9,2.5
+841,lincoln-university,"New Zealand",Oceania,2476,39,19561,10.1,7793,20.1,2.5
+842,manipal-university,India,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+843,nagasaki-university,Japan,Asia,9084,3,7509,1.6,1575,9.2,2.5
+844,national-central-university,China-Taiwan,Asia,11467,5.9,5847,4.7,5620,7.2,2.5
+845,national-technical-university-of-athens,Greece,Europe,14133,8,19561,10.1,7793,20.1,2.5
+846,northeast-agricultural-university-china,China,Asia,28420,0.7,23468,0.1,4183,4.5,2.5
+847,northeast-forestry-university-china,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+848,northeast-normal-university,China,Asia,29236,1.7,14716,1,14520,2.5,2.5
+849,northumbria-university,"United Kingdom",Europe,22275,15.3,18765,11.2,3510,37.2,2.5
+850,prince-of-songkla-university,Thailand,Asia,39257,2,19561,10.1,7793,20.1,2.5
+851,qassim-university,"Saudi Arabia",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+852,qilu-university-of-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+853,qingdao-university-of-science-and-technology,China,Asia,32168,0.1,28341,0,3557,0.8,2.5
+854,royal-holloway-university-of-london,"United Kingdom",Europe,10315,28.5,7875,23.2,2440,45.5,2.5
+855,school-for-advanced-studies-in-the-social-sciences,France,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+856,shanghai-normal-university,China,Asia,29918,1.6,21256,1.7,8662,1.4,2.5
+857,shanghai-ocean-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+858,southwest-petroleum-university,China,Asia,36940,1.5,30552,1.6,6388,0.9,2.5
+859,srm-institute-of-science-and-technology,India,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+860,suzhou-university-of-science-and-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+861,the-education-university-of-hong-kong,"China-Hong Kong",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+862,the-university-of-tokushima,Japan,Asia,7482,1.5,5994,0.7,1488,4.5,2.5
+863,the-university-of-waikato,"New Zealand",Oceania,8921,21.7,7475,18.6,1446,37.8,2.5
+864,tianjin-university-of-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+865,umm-al-qura-university,"Saudi Arabia",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+866,union-college,"United States","North America",27010,13.3,19561,10.1,7793,20.1,2.5
+867,united-arab-emirates-university,"United Arab Emirates",Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+868,universit-paris-est-crteil-val-de-marne-2,France,Europe,38779,14.3,26939,10.8,11840,22.3,2.5
+869,university-of-veterinary-medicine-vienna,Austria,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+870,university-of-cagliari,Italy,Europe,27010,13.3,16056,0.3,4101,20.1,2.5
+871,university-of-calabria,Italy,Europe,22044,4.2,13374,3.7,8670,4.8,2.5
+872,university-of-canberra,Australia,Oceania,15915,20.2,12419,13.3,3496,44.8,2.5
+873,university-of-eastern-piedmont,Italy,Europe,13447,6,8552,5.8,1500,20.1,2.5
+874,university-of-girona,Spain,Europe,15218,13.8,13455,11.8,1763,29.1,2.5
+875,university-of-jaen,Spain,Europe,15133,4,12474,2.1,2659,13.3,2.5
+876,university-of-jordan,Jordan,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+877,university-of-kassel,Germany,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+878,university-of-limerick,Ireland,Europe,14221,17,19561,10.1,7793,20.1,2.5
+879,university-of-louisville,"United States","North America",24770,13.3,17664,10.1,7106,20.1,2.5
+880,university-of-malaga,Spain,Europe,36707,5.4,31839,4.3,4868,13,2.5
+881,university-of-messina,Italy,Europe,27010,13.3,13826,0.7,3294,20.1,2.5
+882,university-of-missouri-kansas-city-1,"United States","North America",19166,13.3,13235,10.1,5931,20.1,2.5
+883,university-of-modena-and-reggio-emilia,Italy,Europe,17432,6,15994,4.6,5605,20.1,2.5
+884,university-of-mons,Belgium,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+885,university-of-nebraska-medical-center,"United States","North America",3285,0.7,998,0.6,2287,0.7,2.5
+886,university-of-oldenburg,Germany,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+887,university-of-salerno,Italy,Europe,36156,1.1,22012,0.9,14144,1.4,2.5
+888,university-of-salzburg,Austria,Europe,10050,32.5,7691,28.8,2359,44.4,2.5
+889,university-of-savoy,France,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+890,university-of-south-china,China,Asia,34415,1.7,29989,1.9,4426,1,2.5
+891,university-of-texas-at-el-paso,"United States","North America",29881,8,25072,10.1,4809,20.1,2.5
+892,university-of-thessaly,Greece,Europe,17004,4,19561,10.1,7793,20.1,2.5
+893,university-of-wuppertal,Germany,Europe,23343,11,19561,10.1,7793,20.1,2.5
+894,university-putra-malaysia,Malaysia,Asia,20018,23,19561,10.1,7793,20.1,2.5
+895,western-norway-university-of-applied-sciences,Norway,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+896,wroclaw-medical-university,Poland,Europe,27010,13.3,19561,10.1,7793,20.1,2.5
+897,wuhan-university-of-science-and-technology,China,Asia,32323,1.2,25316,1.3,7007,0.9,2.5
+898,xian-university-of-architecture-and-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,2.5
+899,yokohama-city-university,Japan,Asia,4976,2,4162,0.8,814,8.4,2.5
+900,zagazig-university,Egypt,Africa,156419,1,19561,10.1,7793,20.1,2.5
+901,adam-mickiewicz-university,Poland,Europe,36207,4.1,20601,4.5,15606,3.5,2
+902,al-jouf-university,"Saudi Arabia",Asia,27010,13.3,19561,10.1,7793,20.1,2
+903,beijing-technology-and-business-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2
+904,beni-suef-university,Egypt,Africa,27010,13.3,19561,10.1,7793,20.1,2
+905,bond-university,Australia,Oceania,5308,45.7,2425,24.4,2883,63.6,2
+906,budapest-university-of-technology-and-economics,Hungary,Europe,18219,7,19561,10.1,7793,20.1,2
+907,carlos-iii-university-of-madrid,Spain,Europe,20958,7.4,16173,5.1,4785,14.8,2
+908,chengdu-university,China,Asia,23521,1.9,22159,1.6,1362,8.1,2
+909,china-three-gorges-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2
+910,city-university-london,"United Kingdom",Europe,14690,35.7,9860,30.6,4830,46,2
+911,comenius-university-in-bratislava,Slovakia,Europe,7802,15.3,4928,10.9,2874,22.8,2
+912,dalian-medical-university,China,Asia,12773,9.8,7481,13.1,4939,5.4,2
+913,dalian-polytechnic-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2
+914,dublin-city-university,Ireland,Europe,14164,8.7,11588,6.4,2576,18.9,2
+915,ege-university,Turkey,Asia,46056,3,19561,10.1,7793,20.1,2
+916,erciyes-university,Turkey,Asia,39178,3,19561,10.1,7793,20.1,2
+917,federal-university-of-ceara,Brazil,"Latin America",34676,1,19561,10.1,7793,20.1,2
+918,federal-university-of-gois,Brazil,"Latin America",34158,1,19561,10.1,7793,20.1,2
+919,federal-university-of-pernambuco,Brazil,"Latin America",34072,1,19561,10.1,7793,20.1,2
+920,ferdowsi-university-of-mashhad,Iran,Asia,23992,5,19561,10.1,7793,20.1,2
+921,gazi-university,Turkey,Asia,37388,2.4,28086,2.7,9302,1.5,2
+922,gdansk-university-of-technology,Poland,Europe,7152,8.7,4255,9.2,2897,7.9,2
+923,guangdong-university-of-foreign-studies,China,Asia,27010,13.3,19561,10.1,7793,20.1,2
+924,guangxi-medical-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,2
+925,gyeongsang-national-university,"South Korea",Asia,27010,13.3,19561,10.1,7793,20.1,2
+926,hebei-university,China,Asia,28789,0.6,21460,0.5,7329,0.9,2
+927,henan-university-of-science-and-technology,China,Asia,43420,0.5,40403,0.5,3017,0.2,2
+928,heriot-watt-university,"United Kingdom",Europe,9740,31.4,7165,22.9,2575,55,2
+929,huaqiao-university,China,Asia,30702,14.6,25553,14.6,5149,14.8,2
+930,indian-institute-of-technology-kanpur,India,Asia,6860,0,19561,10.1,7793,20.1,2
+931,indian-institute-of-technology-roorkee,India,Asia,7561,2,19561,10.1,7793,20.1,2
+932,iran-university-of-science-technology,Iran,Asia,13273,0.8,3961,1.1,9312,0.6,2
+933,jiangsu-university-of-science-and-technology,China,Asia,27010,13.3,19561,10.1,7793,20.1,2
+934,khon-kaen-university,Thailand,Asia,27010,13.3,19561,10.1,7793,20.1,2
+935,king-juan-carlos-university,Spain,Europe,41972,7.4,37935,6.5,4037,16.1,2
+936,kumamoto-university,Japan,Asia,9730,5.1,7757,2.5,1973,15.3,2
+937,linnaeus-university,Sweden,Europe,27010,13.3,19561,10.1,7793,20.1,2
+938,london-business-school,"United Kingdom",Europe,27010,13.3,19561,10.1,1780,80.6,2
+939,loyola-university-chicago,"United States","North America",19332,13.3,13742,10.1,5590,20.1,2
+940,manchester-metropolitan-university,"United Kingdom",Europe,29835,18.5,25180,16.8,4655,27.6,2
+941,medical-university-of-warsaw,Poland,Europe,10541,12.7,2921,22.9,7620,8.8,2
+942,metropolitan-autonomous-university,Mexico,"Latin America",59542,0.3,56038,0.2,3504,2.7,2
+943,montana-state-university-bozeman,"United States","North America",13543,3.3,12667,2.9,876,9.6,2
+944,montpellier-business-school,France,Europe,3700,1000,19561,10.1,7793,20.1,2
+945,national-research-nuclear-university-mephi-moscow-engineering-physics-institute,Russia,Europe,6489,24,19561,10.1,7793,20.1,2
+946,national-university-of-colombia,Colombia,"Latin America",52908,1,47279,0.9,5629,1.4,2
+947,national-university-of-sciences-and-technology-pakistan,Pakistan,Asia,27010,13.3,19561,10.1,7793,20.1,2
+948,nhh-norwegian-school-of-economics-1,Norway,Europe,27010,13.3,19561,10.1,7793,20.1,2
+949,nicolaus-copernicus-university,Poland,Europe,27010,13.3,19561,10.1,7793,20.1,2
+950,niigata-university,Japan,Asia,12158,2,19561,10.1,7793,20.1,2
+951,quaid-i-azam-university,Pakistan,Asia,14694,1,19561,10.1,7793,20.1,1
+952,royal-college-of-surgeons-ireland,Ireland,Europe,27010,13.3,19561,10.1,7793,20.1,1
+953,saitama-university,Japan,Asia,8579,5,19561,10.1,7793,20.1,1
+954,sechenov-university,Russia,Asia,27010,13.3,19561,10.1,7793,20.1,1
+955,shandong-university-of-finance-and-economics,China,Asia,30566,0.5,28007,0.4,2559,2.3,1
+956,shanghai-university-of-finance-and-economics,China,Asia,27010,13.3,19561,10.1,7793,20.1,1
+957,shanghai-university-of-traditional-chinese-medicine,China,Asia,27010,13.3,19561,10.1,7793,20.1,1
+958,shanxi-medical-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,1
+959,shihezi-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,1
+960,shiraz-university-of-medical-science,Iran,Asia,27010,13.3,19561,10.1,7793,20.1,1
+961,singapore-university-of-technology-design,Singapore,Asia,27010,13.3,19561,10.1,7793,20.1,1
+962,southern-cross-university,Australia,Oceania,16777,29,11741,22.1,5036,45,1
+963,suny-college-of-environmental-science-and-forestry,"United States","North America",27010,13.3,19561,10.1,7793,20.1,1
+964,suny-upstate-medical-university,"United States","North America",1661,13.3,305,10.1,1356,20.1,1
+965,swarthmore-college,"United States","North America",1660,13.3,1660,10.1,7793,20.1,1
+966,tokyo-university-of-agriculture-and-technology,Japan,Asia,27010,13.3,19561,10.1,7793,20.1,1
+967,university-of-north-carolina-at-greensboro,"United States","North America",22610,4,18534,10.1,4076,20.1,1
+968,universidad-andrs-bello,Chile,"Latin America",44327,1,19561,10.1,7793,20.1,1
+969,universidad-de-cadiz,Spain,Europe,18927,3.9,16090,2.1,2837,14.1,1
+970,universidad-pablo-de-olavide,Spain,Europe,12239,5,9713,1.4,2526,18.8,1
+971,universidade-federal-de-pelotas,Brazil,"Latin America",23198,0,19561,10.1,7793,20.1,1
+972,university-of-alcal,Spain,Europe,17446,23.4,13923,25.4,3523,15.1,1
+973,university-of-arkansas-at-little-rock,"United States","North America",12993,13.3,9529,10.1,3464,20.1,1
+974,university-of-calcutta,India,Asia,27010,13.3,19561,10.1,7793,20.1,1
+975,university-of-cantabria,Spain,Europe,10361,3.6,8522,3.4,1839,4.3,1
+976,university-of-central-lancashire,"United Kingdom",Europe,18635,11.7,15850,10.3,2785,23.5,1
+977,university-of-chieti-pescara,Italy,Europe,27010,13.3,14880,1.4,4138,20.1,1
+978,university-of-concepcion,Chile,"Latin America",28256,1.6,25574,0.3,2682,14.3,1
+979,university-of-cordoba,Spain,Europe,19063,8.7,15824,6.7,3239,18.5,1
+980,university-of-ghana,Ghana,Africa,27010,13.3,19561,10.1,7793,20.1,1
+981,university-of-hertfordshire,"United Kingdom",Europe,19475,18.5,16525,15.2,2950,36.8,1
+982,university-of-lahore,Pakistan,Asia,27010,13.3,19561,10.1,7793,20.1,1
+983,university-of-lincoln,"United Kingdom",Europe,13985,7.4,12405,4.8,1580,27.8,1
+984,university-of-new-england,Australia,Oceania,22223,5.4,15237,2.2,6986,12.3,1
+985,university-of-novi-sad,Serbia,Europe,27010,13.3,19561,10.1,7793,20.1,1
+986,university-of-poitiers,France,Europe,27010,13.3,19561,10.1,7793,20.1,1
+987,university-of-portsmouth,"United Kingdom",Europe,24362,21.2,20430,16.7,3932,44.7,1
+988,university-of-quebec-montreal,Canada,"North America",27010,13.3,19561,10.1,7793,20.1,1
+989,university-of-sfax,Tunisia,"North America",29639,3.1,21574,3.2,8065,2.7,1
+990,university-of-sharjah,"United Arab Emirates",Asia,27010,13.3,19561,10.1,7793,20.1,1
+991,university-of-south-africa,"South Africa",Africa,193874,7,19561,10.1,7793,20.1,1
+992,university-of-southern-queensland,Australia,Oceania,20934,12.3,15426,5.8,5508,30.8,1
+993,university-of-valladolid,Spain,Europe,22418,7.2,19777,5.8,2641,17.6,1
+994,warsaw-university-of-technology,Poland,Europe,24818,6.8,16461,5.6,8357,9.1,1
+995,xiangtan-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,1
+996,xinjiang-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,1
+997,xuzhou-medical-college,China,Asia,27010,13.3,19561,10.1,7793,20.1,1
+998,yangtze-university,China,Asia,27010,13.3,19561,10.1,7793,20.1,1
+999,yeshiva-university,"United States","North America",7112,13.3,2947,10.1,4165,20.1,1
+1000,zhongnan-university-of-economics-and-law,China,Asia,27010,13.3,19561,10.1,7793,20.1,1

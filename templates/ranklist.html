@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <!-- Site made with Mobirise Website Builder v5.9.4, https://mobirise.com -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="generator" content="Mobirise v5.9.4, mobirise.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="shortcut icon" href="../static/assets/images/mbr-96x48.png" type="image/x-icon" />
+    <meta name="description" content="" />
+
+    <title>Rank List</title>
+    <link rel="stylesheet" href="../static/assets/web/assets/mobirise-icons2/mobirise2.css" />
+    <link rel="stylesheet" href="../static/assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css" />
+    <link rel="stylesheet" href="../static/assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../static/assets/bootstrap/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="../static/assets/bootstrap/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="../static/assets/parallax/jarallax.css" />
+    <link rel="stylesheet" href="../static/assets/animatecss/animate.css" />
+    <link rel="stylesheet" href="../static/assets/dropdown/css/style.css" />
+    <link rel="stylesheet" href="../static/assets/socicon/css/styles.css" />
+    <link rel="stylesheet" href="../static/assets/theme/css/style.css" />
+    <link rel="stylesheet" href="../static/assets/table/style.css" />
+    <link rel="stylesheet" href="../static/assets/modal/style.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css" />
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="../static/assets/typewriting/typewriting.js"></script>
+    
+
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" />
+    </noscript>
+    <link rel="preload" as="style" href="../static/assets/mobirise/css/mbr-additional.css" />
+    <link rel="stylesheet" href="../static/assets/mobirise/css/mbr-additional.css" type="text/css" />
+
+</head>
+
+<body>
+    <!-- registration modal -->
+    <div tabindex="-1" class="modal  fade" id="form-dialog" style="display: none" aria-hidden="true">
+        <div class="modal-dialog" style="height: auto !important;">
+            <div class="modal-content" style="border-radius: 20px !important;display: flex;margin: 0px;padding: 0px;">
+                <div class="row">
+                    <div class="col-12 mb-5" style="padding-top: 20px; padding-right: 50px">
+                        <button aria-hidden="true" data-dismiss="modal" class="close" id="modalclosebtn" style="
+                  height: 10px;
+                  width: 10px;
+                  border-radius: 50px;
+                  float: right;
+                " type="button">
+                            X
+                        </button>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 content-head">
+                        <div class="mbr-section-head mb-5" mbr-if="showTitle || showSubtitle">
+                            <h3 class="mbr-section-title mbr-fonts-style display-5 align-center mb-0"
+                                mbr-theme-style="display-2">
+                                <b>Filter</b>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    
+                        <form name="authenticate_form" method="POST" id="filterform" >
+                            
+                                <div class=" col-12 align-center mb-3 " >
+                                    <div class="row justify-content-center">
+                                    <select id="selectregion" name="selectregion" 
+                                        class="form-select form-select-lg w-75 mb-3 " data-live-search="true"
+                                        data-size="6">
+                                    </select>
+                                    <label>- OR -</label>
+                                    <select id="selectcountry" name="selectcountry" title="Select Country"
+                                        class="form-select w-75 form-select-lg mb-3 mt-3" data-live-search="true"
+                                        data-size="6" ></select>
+                                </div>
+
+                                <div class="col-12 mb-3">
+                                    <div class="row justify-content-center ">
+                                       
+                                        <div class="col-lg-4 col-md-4 col-sm-4 align-center" >
+                                            <button type="button" id="fltreset" style="border-radius:30px;" class="btn btn-warning">Reset</button>
+                                        </div>
+                                        
+                                        <div  class="col-lg-4 col-md-4 col-sm-4 align-center">
+                                            <button type="submit" style="border-radius: 30px;" class="btn btn-primary">Apply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <section data-bs-version="5.1" class="menu menu2 cid-tRs56tz0PF" once="menu" id="menu2-f">
+		<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+			<div class="container">
+				<div class="navbar-brand">
+					<span class="navbar-logo">
+						<a href="">
+							<img src="../static/assets/images/mbr-96x48.png" style="height: 3rem" />
+						</a>
+					</span>
+					<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="">Elect
+							University</a></span>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+ 
+        <div class="container mt-5" >
+            <div class="row justify-content-center">
+                <div class="main-content">
+                    <div class="container" >
+                        <!-- Table -->
+
+                        <div class="col">
+                            <div class="card shadow">
+                                <div class="card-header text-center border-0">
+                                    <h2 class="mb-0">World University Ranking 2023</h2>
+                                   
+                                    <!-- <button type="button"  id="filtermodalbtn" class="position-relative" data-mdb-ripple-unbound="true" style="border-radius: 20px;font-size: 18px;width:100px;height:40px;float:left; background-color: #edefeb;">
+                                        Filter <i class="fa fa-filter" aria-hidden="true"></i></button> -->
+                                            
+                                    <label id="pagestatus" class="position-relative" style="float: right;margin-top: auto;margin-bottom: auto;" >Page 1 out of 20</label>    
+                                </div>
+                                <input type="hidden" name="currentPage" id="currentPage" value="1" readonly/>
+
+                                <div class="table-responsive">
+                                    <table class="table align-items-center table-flush" style="overflow-y: auto;">
+                                        <thead class="thead-light">
+                                            <tr>
+                                                <th scope="col" class="text-center">Rank</th>
+                                                <th scope="col">University</th>
+                                                <th scope="col">Country</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="rankdata">
+                                            <!--  -->
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="card-footer py-4">
+                                    <nav aria-label="...">
+                                        <ul class="pagination justify-content-end mb-0">
+                                            <li class="page-item disabled" id="page-previous" style="margin-right:10px ;">
+                                                <button onclick="previousPage()" class="page-link" > << </button>
+                                            </li>
+                                            <li class="page-item" id="page-next">
+                                                <button onclick="nextPage()" class="page-link" > >> </button>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="title col-md-12 col-lg-12" style="margin-top: 12%;">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>University Rank List
+                            2023</strong></h3>
+
+
+                </div> -->
+            </div>
+        </div>
+
+        <div id="loader" class="loader">
+            <div class="loader-content">
+                <!-- Loader content if necessary -->
+            </div>
+        </div>
+    <!-- <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/parallax/jarallax.js"></script>
+    <script src="assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/ytplayer/index.js"></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+    <script src="assets/formoid/formoid.min.js"></script> -->
+    
+  
+
+    <input name="animation" type="hidden" />
+</body>
+
+</html>
+<script>
+    $(document).ready(function () {
+        
+        $("#loader").show();
+        var startingpage=1
+        displaydetails(startingpage);
+
+
+        $("#filtermodalbtn").click(function () {
+
+            $.ajax({
+                        type: "POST",
+						url: '/filloptions',
+						dataType: "json",
+						success:function(response){
+                            if(response.status==1){
+                                var regionhtml='';
+                                var countryhtml='';
+                                regionhtml+="<option value=''>Select Region</option>";
+                                countryhtml+="<option value=''>Select Country</option>";
+                                for(i=0;i< response.data_region.length ;i++){
+                                    regionhtml+="<option value="+response.data_region[i][0]+">"+response.data_region[i][0]+"</option>"
+                                }
+
+                                for(i=0;i< response.data_country.length ;i++){
+                                    countryhtml+="<option value="+response.data_country[i][0]+">"+response.data_country[i][0]+"</option>"
+                                }
+                                 
+                                $("#selectregion").html(regionhtml);
+                                $("#selectcountry").html(countryhtml);
+                                $("#form-dialog").modal("show");
+                            }else{
+                                alert(response.message);
+                            }
+                        }
+            });
+
+
+            $("#filterform").on("submit", function (e) {
+                e.preventDefault();
+                var contryflt=$("#selectcountry").val();
+                var regionflt=$("#selectregion").val();
+
+
+                if(contryflt || regionflt){
+                    alert("Under Development");
+                    $("#form-dialog").modal("toggle");
+
+                }else{
+                    alert("Select atleast one filter.")
+                }
+            });
+
+            
+        });
+
+        $("#modalclosebtn").click(function () {
+            $("#filterform").trigger("reset");
+
+            $("#form-dialog").modal("toggle"); // Show the modal
+        });
+
+   
+
+    });
+
+    function displaydetails(currentPage){
+        $.ajax({
+
+                type: "POST",
+                url: '/universityrank',
+                data:{
+                    'regionflt':$("#selectregion").val(),
+                    'countryflt':$("#selectcountry").val(),
+                    'currentPage':currentPage,
+                },
+                dataType: "json",
+                success:function(response){
+                    
+                    if(response.status==1){
+                        
+                        var html='';
+                        
+                        for (i=0 ;i< response.data.length ;i++){
+
+                               
+                                html+="            <tr>";
+                                html+="                <td class='text-center'>"+response.data[i][1]+"</td>";
+                                html+="                <th scope='row'>";
+                                html+="                    <div class='media align-items-center'>";
+                                html+="                        <a class='avatar  mr-3'>";
+                                html+="                            <img class='uni_logo' title="+response.data[i][2]+" src='"+response.data[i][3]+"' />";
+                                html+="                        </a>";
+                                html+="                        <div class='media-body'>";
+                                html+="                            <a class='uni_list' href='/institute/"+response.data[i][7]+"' ><span class='mb-0 text-sm'>"+response.data[i][2]+"</span></a>";
+                                html+="                        </div>";
+                                html+="                    </div>";
+                                html+="                </th>";
+                                html+="                <td>";
+                                html+="                    <div class='media align-items-center'>";
+                                html+="                        <a href='#' class='avatar mr-3'>";
+                                html+="                            <img alt='Image placeholder' style='border-radius: 0px !important' src='"+response.data[i][4]+"' />";
+                                html+="                        </a>";
+                                html+="                        <div class='media-body'>";
+                                html+="                            <span class='mb-0 text-sm'>"+response.data[i][5]+" , "+response.data[i][6]+"</span>";
+                                html+="                        </div>";
+                                html+="                    </div>";
+                                html+="                </td>";
+                                html+="            </tr>";
+                            
+                            
+                        }
+                    
+                        $("#rankdata").html(html);
+                        
+                        if(currentPage>1){
+                            $("#page-previous").removeClass("disabled");
+                        }
+                        else{
+                            $("#page-previous").addClass("disabled");
+                        }
+
+                        if(currentPage<20){
+                            $("#page-next").removeClass("disabled");
+                        }
+                        else{
+                            $("#page-next").addClass("disabled");
+                        }
+
+                            $("#loader").hide();
+                        
+                        
+                        
+                        
+                    }else if(response.status==0){
+                        alert(response.message);
+                    }else{
+                        alert(response.message);
+                        window.location.href="/home";
+                    }
+                    
+                }
+            })
+
+            $("#fltreset").click(function(){
+                $("#selectregion").val("");
+                $("#selectcountry").val("");
+            })
+
+
+    }
+    function previousPage() {
+        $("#loader").show();
+        var currentPage = $("#currentPage").val();
+        if (currentPage > 1) {
+
+            currentPage--;
+            $("#currentPage").val(currentPage);
+            displaydetails(currentPage);
+            
+            $("#pagestatus").html("Page "+currentPage+" out of 20.");
+
+            
+        }
+    }
+
+    function nextPage() {
+        $("#loader").show();
+        var currentPage = $("#currentPage").val();
+
+        if (currentPage < 20) { // Replace 20 with the total number of pages
+            currentPage++;
+            $("#currentPage").val(currentPage);
+            displaydetails(currentPage);
+            
+            $("#pagestatus").html("Page "+currentPage+" out of 20.");
+            
+        }
+    }
+
+
+</script>
