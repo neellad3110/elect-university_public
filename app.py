@@ -46,6 +46,7 @@ def index():
 
 @app.route('/home')
 def home():
+    
     return render_template("index.html")
 
 @app.route('/register', methods =['GET', 'POST'])
@@ -71,10 +72,13 @@ def register():
                     message="User already exists. Choose Login to continue."
                     status=0
                 else:
-                    useruid = str(uuid.uuid4())
+                    useruid = uuid.uuid4()
                     hashed_password = hashlib.md5(password.encode()).hexdigest()  # Hash the password
                     # qry2="insert into user values (%s, %s, %s, %s, %s, %s)"
-                    cursor.execute("insert into user values ('{}', '{}','{}','{}','{}',NULL,{},{},'{}')".format(useruid, email, hashed_password, password, entry_date,1,0,entry_date))
+                    cursor.execute("insert into user values (%s,%s,%s,%s,%s,NULL,%s,%s,%s)",(str(useruid), email, hashed_password, password, entry_date,1,0,entry_date))
+                    insqry="INSERT INTO `item_user_frequency` (`user_id`) VALUES ('"+str(useruid)+"')"
+                    cursor.execute(insqry)
+                   
                     conn.commit()  # Commit the changes
                     session["isactive"]=1
                     session["username"]=email
@@ -112,7 +116,7 @@ def login():
                
                 hashed_password = hashlib.md5(password.encode()).hexdigest()  # Hash the password
                 # qry2="insert into user values (%s, %s, %s, %s, %s, %s)"
-                cursor.execute("select isverified from user where password='{}' and email='{}'".format(hashed_password,email,))
+                cursor.execute("select isverified from user where password=%s and email=%s ",(hashed_password,email))
                 fetchuser=cursor.fetchone()
                 
                 if(fetchuser):
@@ -203,11 +207,8 @@ def sendemailprocess():
                 
                 if emailtype =='1':
                     try:
-
-                        
-                        qry2="insert into user_email_verification values('{}','{}','{}','{}','{}','{}','{}')".format(uid,userdata[0],userdata[1],token,date,exp_date,date)
-                        
-                        cursor.execute(qry2)
+ 
+                        cursor.execute("insert into user_email_verification values(%s,%s,%s,%s,%s,%s,%s)",(uid,userdata[0],userdata[1],token,date,exp_date,date))
                         
                         conn.commit()
                         cursor.close()
@@ -223,9 +224,7 @@ def sendemailprocess():
                 elif emailtype=='2':
                     
                     try:
-
-                        qry2="insert into user_pswdrecovery_otp values('{}','{}','{}','{}','{}','{}','{}')".format(uid,userdata[0],userdata[1],token,date,exp_date,date)
-                        cursor.execute(qry2)
+                        cursor.execute("insert into user_pswdrecovery_otp values(%s,%s,%s,%s,%s,%s,%s)",(uid,userdata[0],userdata[1],token,date,exp_date,date))
                         
                         conn.commit()
                         cursor.close()
@@ -282,34 +281,34 @@ def authtoken():
             if(authtype=='1'):
                 authqry="""select 
                             case
-                            when token = '{}' then 1
+                            when token = %s then 1
                             else 0 
                             end as otpflag,
                             case
-                            when expiry_date >= '{}' then 1
+                            when expiry_date >= %s then 1
                             else 0 
                             end as expireflag
                             from user_email_verification 
-                            where email='{}' 
+                            where email=%s 
                             order by timestamp desc limit 1;"""
             else:
                 authqry="""select 
                             case
-                            when otp = '{}' then 1
+                            when otp = %s then 1
                             else 0 
                             end as otpflag,
                             case
-                            when expiry_date >= '{}' then 1
+                            when expiry_date >= %s then 1
                             else 0 
                             end as expireflag
                             from user_pswdrecovery_otp 
-                            where email='{}' 
+                            where email=%s 
                             order by timestamp desc limit 1;""";
             
             try:
                 cursor=conn.cursor()
                 
-                cursor.execute(authqry.format(otp,current_time,recipientemail))
+                cursor.execute(authqry,(otp,current_time,recipientemail))
                 fetchresult=cursor.fetchone()
                 if authtype=='1':
 
@@ -317,8 +316,7 @@ def authtoken():
                         if(fetchresult[0]==1):
                             if(fetchresult[1]==1):
 
-                                qr2="update user set isverified=1 where email='{}'".format(recipientemail,)
-                                cursor.execute(qr2)
+                                cursor.execute("update user set isverified=1 where email=%s",(recipientemail,))
                                 session["isverified"]=1
                                 message="success"
                                 status=1
@@ -377,8 +375,7 @@ def validate_email():
         
             try:
                 cursor=conn.cursor()
-                qry1="select email from user where email='{}'".format(recipientaddress)
-                cursor.execute(qry1)
+                cursor.execute("select email from user where email=%s",(recipientaddress))
                 record=cursor.fetchone()
                 if(record):
                     status=1;
@@ -405,7 +402,7 @@ def resetnewpassword():
         
             try:
                 cursor=conn.cursor()
-                qry1="update user set password='{}',textpassword='{}' where email='{}'".format(new_hashed_password,newpassword,recipientaddress)
+                qry1="update user set password=%s,textpassword=%s where email=%s",(new_hashed_password,newpassword,recipientaddress)
                 cursor.execute(qry1)
                 status=1;
                 session.pop("recoveryemailaddress",None)
@@ -507,7 +504,7 @@ def institutedata(short_url):
                 fetchinstitute="""select 
                                 logo,name,flag,country,region,website,intro,
                                 ranking,year,total_enrollment,total_international_enrollment,ug_enrollment,international_ug_enrollment,pg_enrollment,international_pg_enrollment,
-                                latitude,longitude,short_url
+                                latitude,longitude,short_url,id
                                 from electuniversity.universityranking 
                                 where short_url = %s """
                 
@@ -517,6 +514,14 @@ def institutedata(short_url):
 
                 if(fetchinstituterecord):
 
+                    
+                    # updating user visit record
+                    updateqry="update item_user_frequency set `"+fetchinstituterecord[18]+"` = COALESCE(`"+fetchinstituterecord[18]+"`, 0) + 1 where user_id=(select id from user where email= '"+session["username"]+"') and (COALESCE(`"+fetchinstituterecord[18]+"`, 0) < 20) "
+               
+                    cursor.execute(updateqry)
+
+
+
                     selecteddata,preprocessedata=getprocessdata()
                     short_url_similarity_martix=check_cosine_similarity(short_url,selecteddata,preprocessedata)
                     
@@ -525,6 +530,7 @@ def institutedata(short_url):
                     qryrecommendations="select logo,short_url,name,country from universityranking where short_url in (%s" + ", %s"*(len(code)-1) + ")"
                     cursor.execute(qryrecommendations,code)
                     fetchrecommendations=cursor.fetchall();
+                    
 
                     status=1;
                     conn.commit()
@@ -689,6 +695,67 @@ def check_cosine_similarity(code,df,df_processed):
     return similar_universities["short_url"].head(20)    
 
 
+@app.route("/visitrecommendation",methods=["GET","POST"])
+def visitrecommendation():
+    status=0
+    message=""
+    if conn.is_connected()==True:
+        try:
+
+            cursor=conn.cursor()
+            patternqry="select * from item_user_frequency"
+            
+            pattern_df=pd.read_sql_query(patternqry, conn)
+            pattern_df.fillna(0,inplace=True)
+            pattern_df.set_index("user_id",inplace=True)
+            pattern_df=pattern_df.transpose()
+            user_similarity=pattern_df.corr(method="pearson")
+
+            if('username' in session):
+                fecthuser="select id from user where email=%s";
+                cursor.execute(fecthuser,(session["username"],))
+                record=cursor.fetchone()
+                target_user=record[0]
+            else :
+                target_user="dummyuser"
+
+          
+            similar_users = user_similarity[target_user].drop(target_user).sort_values(ascending=False).index 
+           
+            selective_user=similar_users[0]
+           
+            recommended_universities = pd.DataFrame({'university': pattern_df[selective_user].index, 'count': pattern_df[selective_user].values})
+
+
+            recommended_universities.sort_values(by="count",ascending=False,inplace=True)
+            recommended_universities.set_index("university",inplace=True)
+            
+            suggestions=set(recommended_universities[:9].index)
+            processed_suggestions=tuple(suggestions)
+           
+           
+            qrysuggestions="select logo,short_url,name,country from universityranking where id in (%s" + ", %s"*(len(processed_suggestions[:9])-1) + ") order by counter"
+            cursor.execute(qrysuggestions,processed_suggestions[:9])
+
+            fetchsuggestions=cursor.fetchall();
+            suggest = []
+            for item in fetchsuggestions:
+                suggest.append({'logo': item[0], 'short_url': item[1],'name':item[2],'country':item[3]})
+
+            status=1
+            message="success"
+
+            response={'suggestions':suggest,'status':status,'message':message}
+           
+            return jsonify(response)
+            
+        except mysql.connector.Error as err:
+            message="Error ecountered while preparing suggestions."
+            status=0
+        
+            response={'status':status,'message':message}
+        
+            return jsonify(response)
 
 
 

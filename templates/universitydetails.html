@@ -60,7 +60,7 @@
                                 style="height: 3rem" />
                         </a>
                     </span>
-                    <span class="navbar-caption-wrap"><label class="navbar-caption text-black display-7">Elect University</label></span>
+                    <span class="navbar-caption-wrap"><a href="{{url_for('home')}}" ><label class="navbar-caption text-black display-7">Elect University</label></a></span>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse"
                     data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent"
@@ -79,7 +79,7 @@
                         {% print( session['username'].split('@')[0]) %} !
                     </label>
                     <div class="navbar-buttons mbr-section-btn" style="margin-right: 1%;">
-                        <button class="btn btn-outline-danger display-4">
+                        <button class="btn btn-outline-danger display-4" id="logoutbtn">
                             Logout</button>
                     </div>
                     {%endif%}
@@ -336,7 +336,7 @@
         <div class="position-relative text-center">
             <div class="mbr-section-head">
                 <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Top Universities in {% print(institute_data.data_institute[3])%}</strong></h4>
+                    <strong>Universities with similar records.</strong></h4>
                 
             </div>
             <!--  -->
@@ -392,7 +392,12 @@
             </div>
         </div>
     </section>
-    
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <!-- Loader content if necessary -->
+        </div>
+    </div>
+
     <script src="../static/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../static/assets/parallax/jarallax.js"></script>
     <script src="../static/assets/smoothscroll/smooth-scroll.js"></script>
@@ -411,3 +416,26 @@
 
 
 </html>
+<script>
+    $(document).ready(function(){
+
+        $("#logoutbtn").click(function(){
+
+            $("#loader").show()
+
+            $.ajax({
+                        type: "POST",
+                        url: '/logout',
+                        dataType: "json",
+                        success:function(response){
+
+                                alert(response.message);
+                                $("#loader").hide()
+
+                                window.location.href = "/"; 
+                        }
+                    });
+        });
+
+    });
+</script>
