@@ -1,4 +1,3 @@
-import flask
 from flask import Flask, render_template, request, redirect, url_for , jsonify,session
 import mysql.connector
 import re
@@ -7,8 +6,6 @@ import datetime;
 import hashlib
 from flask_mail import Mail, Message
 import random
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics.pairwise import cosine_similarity
@@ -16,16 +13,14 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import MinMaxScaler
 
 
-data=pd.read_excel("dataset/ranking.xlsx");
-data = data.fillna(0)
 
 app = Flask(__name__)
 
 
-app.config['MAIL_SERVER']='smtp.elasticemail.com'
+app.config['MAIL_SERVER']='mail_servie'     #add your mail service provider 
 app.config['MAIL_PORT'] = 2525
-app.config['MAIL_USERNAME'] = 'neel.lad3110+electuniversity@gmail.com'
-app.config['MAIL_PASSWORD'] = '346E3BFCD43EB1222746E488225D829D4F32'
+app.config['MAIL_USERNAME'] = 'set_your_username'       
+app.config['MAIL_PASSWORD'] = 'set_your_password'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 
@@ -756,16 +751,6 @@ def visitrecommendation():
             response={'status':status,'message':message}
         
             return jsonify(response)
-
-
-
-
-
-
-
-
-
-
 
 
 
